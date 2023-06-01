@@ -5,9 +5,12 @@ const Navbar = () => {
 
     let Links =[
         {name:"HOME",link:"/"},
-        {name:"SERVICE",link:"/"},
-        {name:"ABOUT",link:"/"},
-        {name:"BLOG'S",link:"/"},
+        {name:"REGISTROS",link:"/"},
+        {name:"POR QUE STAMP",link:"/"},
+        {name:"VANTAGENS",link:"/"},
+        {name:"CUSTOS",link:"/"},
+        {name:"CONTATO",link:"/"},
+
       ];
 
     const [open,setOpen]= useState(false);
