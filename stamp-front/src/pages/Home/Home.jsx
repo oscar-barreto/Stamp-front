@@ -11,7 +11,7 @@ const Home = () => {
          <Navbar/>
          <div className="h-2 mt-40 bg-black"></div>
          <Header/>
-         <div className="h-3  bg-lime-500"></div>
+         <div className="h-2  bg-lime-500"></div>
          <Advantages/>
          <HowItWorks/>
          <Price/>
