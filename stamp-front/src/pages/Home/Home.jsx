@@ -5,6 +5,8 @@ import Price from "../../components/Price/Price";
 import Footer from "../../components/Footer/Footer";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import Advantages from "../../components/Advantages/Advantages";
+import InterSection1 from "../../components/Intersection/InterSection1";
+import InterSection2 from "../../components/Intersection/InterSection2";
 
 const Home = () => {
   return (
@@ -15,7 +17,9 @@ const Home = () => {
          <div className="h-2  bg-lime-500"></div>
           <HowItWorks/>
           <Advantages/>
+          <InterSection1/>
           {/* <AboutUs/> */}
+          <InterSection2/>
          <Price/>
          <Footer/>
    </>

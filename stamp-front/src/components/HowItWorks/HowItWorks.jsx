@@ -3,7 +3,7 @@
 const HowItWorks = () => {
   return (
     <>
-        <div className='flex justify-center flex-col items-center p-2 m-2'>
+        <div className='flex justify-center flex-col items-center lg:py-32 p-2 m-2'>
                 <h2 className="text-3xl tracking-wide text-lime-500 p-2 m-2">Como Funciona o Registro da marca?</h2>
             <div className="flex sm:flex-col md:flex-col lg:flex-row">
                 <div className="flex flex-col justify-center items-center">

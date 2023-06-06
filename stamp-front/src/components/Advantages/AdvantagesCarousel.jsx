@@ -18,43 +18,45 @@ const AdvantagesCarousel = () => {
    <>
     <div className="relative w-96">
 
-          <div className="text-end text-lime-900 tracking-wide text-3xl">Vantagens de ter sua<br></br> marca registrada</div>
           
-          <div className="absolute m-2 p-2 top-5">
+          
+          <div id="content" className="carousel scroll-smooth py-2 flex items-center justify-start overflow-x-auto w-[500px] relative scrollbar-hide">
 
-            <button onClick={scrollLeft} className="p-2 m-1 bg-gray-100 rounded-xl"><FiChevronLeft/></button>
-            <button onClick={scrollRight} className="p-2 m-1 bg-gray-100 rounded-xl"><FiChevronRight/></button>
+                <div>
+                  <Card/>
+                </div>
+                <div>
+                  <Card/>
+                </div>
+                <div>
+                  <Card/>
+                </div>
+                <div>
+                  <Card/>
+                </div>
+                <div>
+                  <Card/>
+                </div>
+                <div>
+                  <Card/>
+                </div>
+                <div>
+                  <Card/>
+                </div>
+                <div>
+                  <Card/>
+                </div>
+                
+          </div>
+          <div className="m-2 p-2 absolute">
+
+            <button onClick={scrollLeft} className=" p-1 m-1 bg-gray-100 text-xl rounded-xl"><FiChevronLeft/></button>
+            <button onClick={scrollRight} className="p-1 m-1 bg-gray-100 text-xl rounded-xl"><FiChevronRight/></button>
 
           </div>
-
-          <div id="content" className="carousel scroll-smooth p-2 flex items-center justify-start overflow-x-auto w-[500px] relative scrollbar-hide">
-
-                <div>
-                  <Card/>
-                </div>
-                <div>
-                  <Card/>
-                </div>
-                <div>
-                  <Card/>
-                </div>
-                <div>
-                  <Card/>
-                </div>
-                <div>
-                  <Card/>
-                </div>
-                <div>
-                  <Card/>
-                </div>
-                <div>
-                  <Card/>
-                </div>
-                <div>
-                  <Card/>
-                </div>
-          </div>
+      
     </div>
+    
    
    </>
   )
