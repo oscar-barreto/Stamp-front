@@ -20,7 +20,7 @@ const AdvantagesCarousel = () => {
 
           
           
-          <div id="content" className="carousel scroll-smooth py-2 flex items-center justify-start overflow-x-auto w-[500px] relative scrollbar-hide">
+          <div id="content" className="carousel scroll-smooth flex items-center px-4 justify-start overflow-x-auto lg:w-[630px] sm:w-[200px] relative scrollbar-hide">
 
                 <div>
                   <Card/>
@@ -48,10 +48,10 @@ const AdvantagesCarousel = () => {
                 </div>
                 
           </div>
-          <div className="m-2 p-2 absolute">
+          <div className=" p-2 absolute top-28">
 
-            <button onClick={scrollLeft} className=" p-1 m-1 bg-gray-100 text-xl rounded-xl"><FiChevronLeft/></button>
-            <button onClick={scrollRight} className="p-1 m-1 bg-gray-100 text-xl rounded-xl"><FiChevronRight/></button>
+            <button onClick={scrollLeft} className=" p-1 mx-1 bg-gray-100 text-xl rounded-xl"><FiChevronLeft/></button>
+            <button onClick={scrollRight} className="p-1 mx-1 bg-gray-100 text-xl rounded-xl"><FiChevronRight/></button>
 
           </div>
       
