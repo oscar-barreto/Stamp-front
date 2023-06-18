@@ -4,7 +4,7 @@ const HowItWorks = () => {
   return (
     <>
         <div className='flex justify-center flex-col items-center lg:py-32 p-2 m-2'>
-                <h2 className="text-3xl tracking-wide text-lime-800 p-2 m-2">Como Funciona o Registro da marca?</h2>
+                <h2 className="text-3xl tracking-wide text-[#78d64b] py-4 mb-8">Como Funciona o Registro da marca?</h2>
             <div className="lg:flex md:flex sm:flex-col md:flex-col lg:flex-row">
                 <div className="flex flex-col justify-center items-center">
                     <div className="border-2 border-black rounded-full h-20 w-20">
@@ -17,12 +17,12 @@ const HowItWorks = () => {
 
                     </div>
                     <div>
-                        <h6 className="text-center p-1 m-1 text-lime-800 font-bold">Pesquisa de Disponibilidade</h6>
-                        <p className="text-center p-1 m-1">Aqui verificamos se sua<br></br> marca está disponível para<br></br> registro no seu <br></br>segmento de atuação.</p>
+                        <h6 className="text-center p-1 m-1 text-[#78d64b] font-bold">Pesquisa de Viabilidade</h6>
+                        <p className="text-center p-1 m-1">Verificamos se sua marca <br /> está viável para o processo <br /> de registro</p>
 
                     </div>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 self-start mt-5 lg:block sm:hidden md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 self-start mt-5 lg:block sm:hidden md:hidden hidden">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                 </svg>
 
@@ -38,11 +38,11 @@ const HowItWorks = () => {
 
                     </div>
                     <div>
-                        <h6 className="text-center p-1 m-1 text-lime-800 font-bold">Protocolo pedido</h6>
-                        <p className="text-center p-1 m-1">Aqui verificamos se sua<br></br> marca está disponível para<br></br> registro no seu <br></br>segmento de atuação.</p>
+                        <h6 className="text-center p-1 m-1 text-[#78d64b] font-bold">Protocolo do pedido</h6>
+                        <p className="text-center p-1 m-1">É o início do processo , o protocolo <br /> tramita entre 30 a 50 dias antes <br /> de ser tramitado</p>
                     </div>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 self-start mt-5 lg:block sm:hidden md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 self-start mt-5 lg:block sm:hidden md:hidden hidden">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                 </svg>
                 <div className="flex flex-col justify-center items-center">
@@ -57,12 +57,12 @@ const HowItWorks = () => {
 
                     </div>
                     <div>
-                        <h6 className="text-center p-1 m-1 text-lime-800 font-bold">Analise do INPI</h6>
-                        <p className="text-center p-1 m-1">Aqui verificamos se sua<br></br> marca está disponível para<br></br> registro no seu <br></br>segmento de atuação.</p>
+                        <h6 className="text-center p-1 m-1 text-[#78d64b] font-bold">Exame de mérito</h6>
+                        <p className="text-center p-1 m-1">Nesse período o INPI <br /> examina se a marca poderá <br /> ser registrada ou não</p>
 
                     </div>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 self-start mt-5 lg:block sm:hidden md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 self-start mt-5 lg:block sm:hidden md:hidden hidden">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                 </svg>
                 <div className="flex flex-col justify-center items-center">
@@ -77,27 +77,28 @@ const HowItWorks = () => {
 
                     </div>
                     <div>
-                        <h6 className="text-center p-1 m-1 text-lime-800 font-bold">Decisao do INPI</h6>
-                        <p className="text-center p-1 m-1">Aqui verificamos se sua<br></br> marca está disponível para<br></br> registro no seu <br></br>segmento de atuação.</p>
+                        <h6 className="text-center p-1 m-1 text-[#78d64b] font-bold">O INPI chega a decisão</h6>
+                        <p className="text-center p-1 m-1">Com a decisão da INPI  haverá <br /> deferimento ou não no requerimento <br /> do seu pedido de registro</p>
 
                     </div>
                 </div>    
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 self-start mt-5 lg:block sm:hidden md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 self-start mt-5 lg:block sm:hidden md:hidden hidden">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                 </svg>            
                 <div className="flex flex-col justify-center items-center">
                     <div className="border-2 border-black rounded-full h-20 w-20">
                         <div className="w-8 h-6 rounded-full bg-lime-500 flex justify-center items-center">5</div>
                         <div className="flex justify-center items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m5.231 13.481L15 17.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v16.5c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9zm3.75 11.625a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
-                            </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                        </svg>
+
                         </div>
 
                     </div>
                     <div>
-                        <h6 className="text-center p-1 m-1 text-lime-800 font-bold">Emissao do Certificado<br></br> de Registro da Marca</h6>
-                        <p className="text-center p-1 m-1">Aqui verificamos se sua<br></br> marca está disponível para<br></br> registro no seu <br></br>segmento de atuação.</p>
+                        <h6 className="text-center p-1 m-1 text-[#78d64b] font-bold">Registro da Marca</h6>
+                        <p className="text-center p-1 m-1"> Com o registro da sua  marca. <br /> Aqui você recebe seu <br /> certificado de registro</p>
 
                     </div>
                 </div>            

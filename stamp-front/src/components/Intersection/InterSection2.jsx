@@ -18,7 +18,7 @@ const InterSection2 = () => {
                 </div>
             </div>
             <div className="m-2 py-8">
-                <h2 className="m-2 p-2 text-4xl text-lime-800 tracking-wide">Registros Inteligentes</h2>
+                <h2 className="m-2 p-2 text-4xl text-[#78d64b] tracking-wide">Registros Inteligentes</h2>
                 <div>
                     <p className="m-2 p-2 leading-7 text-sm tracking-wide text-black font-light">Em 2020, criamos a Check com o propósito de ajudar microempreendedores e pequenos negócios a proteger um dos maiores ativos de uma empresa: a marca! <br />
 
@@ -32,7 +32,7 @@ const InterSection2 = () => {
                     <a href="https://www.instagram.com/stampmarcas/">
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 mx-3 hover:text-lime-500 text-lime-800"
+                    className="h-4 w-4 mx-3 hover:text-lime-500 text-[#78d64b]"
                     fill="currentColor"
                     viewBox="0 0 24 24">
                     <path
@@ -43,7 +43,7 @@ const InterSection2 = () => {
 
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 mx-3 hover:text-lime-500 text-lime-800"
+                    className="h-4 w-4 mx-3 hover:text-lime-500 text-[#78d64b]"
                     fill="currentColor"
                     viewBox="0 0 24 24">
                     <path

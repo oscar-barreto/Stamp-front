@@ -9,8 +9,8 @@ const Header = () => {
                 <h1 className="text-5xl font-bold m-5 text-white p-1">Escolha a Stamp e dê proteção à marca que você construiu</h1>
                 <p className="text-xl font-light m-5 text-white p-1">Carimbe o ® no seu legado no mundo dos negócios</p>
                 <div>
-                    <button className="bg-zinc-950 text-lime-500 font-bold border-2 border-lime-500 hover:text-white m-5 p-4 rounded text-xl">Start with free laywers check</button>
-                    <button className="bg-lime-500 text-white font-bold m-5 p-4 rounded text-xl">Me mostre os precos</button>
+                    <button className="bg-zinc-950 text-[#78d64b] font-bold border-2 border-[#78d64b] hover:text-white m-5 p-4 rounded text-xl">Start with free laywers check</button>
+                    <button className="bg-[#78d64b] text-white font-bold m-5 p-4 rounded text-xl">Me mostre os precos</button>
                 </div>
             </div>
             <div className='flex lg:justify-end items-end'>
