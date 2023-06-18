@@ -6,6 +6,7 @@ import Footer from "../../components/Footer/Footer";
 import InterSection1 from "../../components/Intersection/InterSection1";
 import InterSection2 from "../../components/Intersection/InterSection2";
 import Advantages from "../../components/Advantages/Advantages";
+import WhyUs from "../../components/WhyUs/WhyUs";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
          <Header/>
          <div className="h-2  bg-[#78d64b]"></div>
           <HowItWorks/>
+          <WhyUs/>
           <Advantages/>
           <InterSection1/>
           <InterSection2/>

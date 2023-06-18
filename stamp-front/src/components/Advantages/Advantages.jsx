@@ -1,4 +1,6 @@
 import greenLogo from "../../assets/images/greenLogo.png";
+import girl from "../../assets/images/girl.png"
+import whiteLogo from "../../assets/images/whiteLogo.png";
 import sectionphoto from "../../assets/images/sectionphoto.png";
 import Slider from "react-slick";
 
@@ -21,12 +23,11 @@ const Advantages = () => {
   return (
     <>  
         <div className="w-100 h-40 bg-[#f7f7f7]"></div>
-        <div className="lg:grid lg:grid-cols-7 bg-[#f7f7f7] flex flex-col-reverse">
-            <div className="lg:flex lg:flex-col lg:justify-end p-4">
-                <img className="h-40 lg:p-1 sm:hidden hidden lg:block" src={greenLogo} alt="" />
+        <div className="lg:grid lg:grid-cols-9 bg-[#f7f7f7] flex flex-col-reverse">
+            <div className="lg:flex lg:flex-col lg:overflow-hidden col-span-1 lg:justify-center ">
             </div>
-            <div className="p-10 col-span-3">
-                <h2 className=" text-3xl text-[Poppins] p-2 py-4 my-4 tracking-wide text-[#78d64b]">Vantagens de ter sua <br /> marca registrada:</h2>
+            <div className="p-10 col-span-4">
+                <h2 className=" text-3xl text-[Poppins] border-white p-2 py-4 my-4 tracking-wide text-[#78d64b]">Vantagens de ter sua <br /> marca registrada:</h2>
                 <Slider className="py-2" {...settings}>
                     <div className="card p-2">
                         <div>
@@ -122,7 +123,7 @@ const Advantages = () => {
                 </Slider>
             
             </div>
-            <div className="pl-2 col-span-3">
+            <div className="pl-2 col-span-4">
                 <img className='rounded-tl-2xl' src={sectionphoto} alt="" />
             </div>
         </div>
