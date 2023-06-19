@@ -4,6 +4,7 @@ import whiteLogo from "../../assets/images/whiteLogo.png";
 import sectionphoto from "../../assets/images/sectionphoto.png";
 import greenStamp from "../../assets/images/greenStamp.jpeg"
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 
 
 const Advantages = () => {
@@ -122,7 +123,9 @@ const Advantages = () => {
                     </div>
                     
                 </Slider>
+                <Link to="https://wa.me/+558199605252">
                 <button className="bg-[#78d64b] self-center text-xl hover:bg-white hover:text-[#78d64b] border-2 border-white hover:border-[#78d64b] text-white px-4 py-3 m-1 rounded-xl">Entrar em contato</button>
+                </Link>
             </div>
             <div className="md:py-0 md:my-0 py-10 my-10 md:pl-2 col-span-4">
                 <img className='md:rounded-tl-2xl' src={sectionphoto} alt="" />

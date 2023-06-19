@@ -1,3 +1,7 @@
+import { Link } from "react-router-dom"
+
+
+
 
 const Price = () => {
   return (
@@ -7,9 +11,9 @@ const Price = () => {
         </div>
         <div className="bg-[#78d64b] h-48">
         
-        <div className="flex p-4">
+        <div className="md:flex md:flex-row flex flex-col p-2 md:p-4">
 
-                <div className="border-2 border-white bg-[#78d64b] text-white rounded-2xl h-[420px] w-[400px]">
+                <div className="border-2 border-white bg-[#78d64b] text-white rounded-2xl h-[460px] w-[400px]">
                     <div className="boleto">
                         <div className="boleto-top border-2 border-white rounded-2xl w-40 flex m-2">
                             <div className="p-1 m-1 ">
@@ -56,7 +60,7 @@ const Price = () => {
 
 
 
-            <div className="border-2 bg-white h-[420px] w-[400px] rounded-2xl border-[#78d64b]">
+            <div className="border-2 bg-white h-[460px] w-[400px] rounded-2xl border-[#78d64b]">
             <div className="inpi">
                         <div className="inpi-top border-2 border-[#78d64b] rounded-2xl w-40 flex m-2">
                             <div className="p-1 m-1 ">
@@ -78,9 +82,11 @@ const Price = () => {
 
 
 
-            <div className="flex flex-col justify-center items-start p-2 m-2">
-            <h3 className="text-l font-medium p-2  mt-10 text-[#78d64b]">REGISTRE SUA MARCA DE FORMA <br /> DESCOMPLICADA E COM VALOR ACESSÍVEL.</h3>
-            <button className="bg-[#78d64b] text-white p-2 m-2 rounded-xl">Converse com a gente</button>
+            <div className="flex flex-col justify-center md:items-start items-center p-2 m-2">
+            <h3 className="text-l text-center md:text-start md:my-0 my-4 font-medium p-2 md:mb-4 text-[#78d64b] md:text-white">REGISTRE SUA MARCA DE FORMA <br /> DESCOMPLICADA E COM VALOR ACESSÍVEL.</h3>
+            <Link to="https://wa.me/+558199605252">
+            <button className="bg-[#78d64b] hover:bg-white border-2 md:mb-28 mx-1 border-[#78d64b] hover:text-[#78d64b] text-white p-3  rounded-xl">Converse com a gente</button>
+            </Link>
             </div>
 
 
@@ -89,7 +95,7 @@ const Price = () => {
 
 
         </div>
-        <div className="bg-white h-80"></div>
+        <div className="bg-white h-[800px] md:h-80"></div>
     
     </>
   )

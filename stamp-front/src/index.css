@@ -10,3 +10,8 @@
 ::-webkit-scrollbar{
     display: none;
 }
+
+:root{
+    --green:#78d64b;
+    --seaSand:#f7f7f7;
+}

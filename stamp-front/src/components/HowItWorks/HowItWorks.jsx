@@ -6,7 +6,7 @@ const HowItWorks = () => {
         <div className='flex justify-center flex-col items-center lg:py-32 p-2 m-2'>
                 <h2 className="text-3xl tracking-wide text-[#78d64b] py-4 mb-8">Como Funciona o Registro da marca?</h2>
             <div className="lg:flex md:flex sm:flex-col md:flex-col lg:flex-row">
-                <div className="flex flex-col justify-center items-center">
+                <div className="flex flex-col justify-center items-center my-4 lg:my-0">
                     <div className="border-2 border-black rounded-full h-20 w-20">
                         <div className="w-8 h-6 rounded-full bg-lime-500 flex justify-center items-center">1</div>
                         <div className="flex justify-center items-center">
@@ -16,7 +16,7 @@ const HowItWorks = () => {
                         </div>
 
                     </div>
-                    <div>
+                    <div className="">
                         <h6 className="text-center p-1 m-1 text-[#78d64b] font-bold">Pesquisa de Viabilidade</h6>
                         <p className="text-center p-1 m-1">Verificamos se sua marca <br /> está viável para o processo <br /> de registro</p>
 
@@ -26,7 +26,7 @@ const HowItWorks = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                 </svg>
 
-                <div className="flex flex-col justify-center items-center">
+                <div className="flex flex-col justify-center items-center my-4 lg:my-0">
                     <div className="border-2 border-black rounded-full h-20 w-20">
                         <div className="w-8 h-6 rounded-full bg-lime-500 flex justify-center items-center">2</div>
                         <div className="flex justify-center items-center">
@@ -45,7 +45,7 @@ const HowItWorks = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 self-start mt-5 lg:block sm:hidden md:hidden hidden">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                 </svg>
-                <div className="flex flex-col justify-center items-center">
+                <div className="flex flex-col justify-center items-center my-4 lg:my-0">
                     <div className="border-2 border-black rounded-full h-20 w-20">
                         <div className="w-8 h-6 rounded-full bg-lime-500 flex justify-center items-center">3</div>
                         <div className="flex justify-center items-center">
@@ -65,7 +65,7 @@ const HowItWorks = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 self-start mt-5 lg:block sm:hidden md:hidden hidden">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                 </svg>
-                <div className="flex flex-col justify-center items-center">
+                <div className="flex flex-col justify-center items-center my-4 lg:my-0">
                     <div className="border-2 border-black rounded-full h-20 w-20">
                         <div className="w-8 h-6 rounded-full bg-lime-500 flex justify-center items-center">4</div>
                         <div className="flex justify-center items-center">
@@ -85,7 +85,7 @@ const HowItWorks = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 self-start mt-5 lg:block sm:hidden md:hidden hidden">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                 </svg>            
-                <div className="flex flex-col justify-center items-center">
+                <div className="flex flex-col justify-center items-center my-4 lg:my-0">
                     <div className="border-2 border-black rounded-full h-20 w-20">
                         <div className="w-8 h-6 rounded-full bg-lime-500 flex justify-center items-center">5</div>
                         <div className="flex justify-center items-center">

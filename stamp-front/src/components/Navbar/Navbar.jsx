@@ -8,7 +8,7 @@ const Navbar = () => {
         {name:"HOME",link:"/"},
         {name:"REGISTROS",link:"/"},
         {name:"POR QUE STAMP",link:"/"},
-        {name:"VANTAGENS",link:"/"},
+        {name:"VANTAGENS",link:"#Vantagens"},
         {name:"CUSTOS",link:"/"},
         {name:"CONTATO",link:"/"},
 
