@@ -7,12 +7,13 @@ import InterSection1 from "../../components/Intersection/InterSection1";
 import InterSection2 from "../../components/Intersection/InterSection2";
 import Advantages from "../../components/Advantages/Advantages";
 import WhyUs from "../../components/WhyUs/WhyUs";
+import InterSection3 from "../../components/Intersection/InterSection3";
 
 const Home = () => {
   return (
    <>
          <Navbar/>
-         <div className="h-2 mt-40 bg-black"></div>
+         <div className="h-2 mt-40 bg-[#78d64b]"></div>
          <Header/>
          <div className="h-2  bg-[#78d64b]"></div>
           <HowItWorks/>
@@ -21,6 +22,7 @@ const Home = () => {
           <InterSection1/>
           <InterSection2/>
          <Price/>
+         <InterSection3/>
          <Footer/>
    </>
   )

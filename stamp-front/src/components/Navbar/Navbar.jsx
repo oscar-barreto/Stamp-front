@@ -1,4 +1,5 @@
 import logo from '../../assets/images/logo.png'
+import logoVerde from "../../assets/images/logoVerde.jpeg"
 import { useState } from "react";
 
 const Navbar = () => {
@@ -18,12 +19,12 @@ const Navbar = () => {
   return (
     <>
         <div id="nav-bar" className='shadow-md w-full fixed top-0 left-0 bg-slate-950 sm:z-auto sm:z-auto z-[1]'>
-            <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7' style={{backgroundColor:"black"}}>
+            <div className='md:flex items-center justify-between py-4 md:px-10 bg-[#78d64b] px-7'>
             <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
             text-gray-800 '>
                 
                 <span className='text-3xl text-gray-50 mr-1 pt-2'>
-                    <img className='w-50 h-32' src={logo} alt="" /> 
+                    <img className='w-50 h-32' src={logoVerde} alt="" /> 
                 </span>
             </div>
             
@@ -31,8 +32,8 @@ const Navbar = () => {
             <ion-icon style={{color:"white"}} name={open ? 'close':'menu'}></ion-icon>
             </div>
 
-            <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] sm:z-auto  z-[-1]
-            left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`} style={{backgroundColor:"black"}}>
+            <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-[#78d64b] md:z-auto z-[-1] sm:z-auto  z-[-1]
+            left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
                 {
                 Links.map((link)=>(
                     <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 z-2'>

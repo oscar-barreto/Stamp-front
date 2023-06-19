@@ -2,6 +2,7 @@ import greenLogo from "../../assets/images/greenLogo.png";
 import girl from "../../assets/images/girl.png"
 import whiteLogo from "../../assets/images/whiteLogo.png";
 import sectionphoto from "../../assets/images/sectionphoto.png";
+import greenStamp from "../../assets/images/greenStamp.jpeg"
 import Slider from "react-slick";
 
 
@@ -24,10 +25,10 @@ const Advantages = () => {
     <>  
         <div className="w-100 h-40 bg-[#f7f7f7]"></div>
         <div className="lg:grid lg:grid-cols-9 bg-[#f7f7f7] flex flex-col-reverse">
-            <div className="lg:flex lg:flex-col lg:overflow-hidden col-span-1 lg:justify-center ">
+            <div className="lg:flex lg:flex-col lg:overflow-hidden col-span-1 lg:justify-end">
             </div>
             <div className="p-10 col-span-4">
-                <h2 className=" text-3xl text-[Poppins] border-white p-2 py-4 my-4 tracking-wide text-[#78d64b]">Vantagens de ter sua <br /> marca registrada:</h2>
+                <h2 className=" text-3xl text-[Poppins] border-white p-2 py-4 my-4 tracking-wide text-[#78d64b]">Vantagens de ter sua marca <br /> registrada pela Stamp:</h2>
                 <Slider className="py-2" {...settings}>
                     <div className="card p-2">
                         <div>
@@ -121,10 +122,10 @@ const Advantages = () => {
                     </div>
                     
                 </Slider>
-            
+                <button className="bg-[#78d64b] self-center text-xl hover:bg-white hover:text-[#78d64b] border-2 border-white hover:border-[#78d64b] text-white px-4 py-3 m-1 rounded-xl">Entrar em contato</button>
             </div>
-            <div className="pl-2 col-span-4">
-                <img className='rounded-tl-2xl' src={sectionphoto} alt="" />
+            <div className="md:py-0 md:my-0 py-10 my-10 md:pl-2 col-span-4">
+                <img className='md:rounded-tl-2xl' src={sectionphoto} alt="" />
             </div>
         </div>
     </>

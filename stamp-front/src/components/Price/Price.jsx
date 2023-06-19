@@ -23,7 +23,7 @@ const Price = () => {
                             <div className="p-1 m-1 text-xl tracking-wider">Boleto</div>
                         </div>
                         <div className="boleto-bottom flex justify-center p-10 m-4">
-                            <p> <span className="text-2xl f">R$ 1.235 </span> ou em até 4x R$ 325*5% de desconto à vista ou PIX</p>
+                            <p><span className="text-2xl">R$ 1.180,00 </span> (à vista ou pix) ou em até 4x de <span className="text-2xl f">R$ 310,00</span></p>
                         </div>
                     </div>
                     <div className="w-full border-t border-white"></div>
@@ -43,7 +43,7 @@ const Price = () => {
                             <div className="p-1 m-1 text-xl tracking-wider">Cartão</div>
                         </div>
                         <div className="cartao-bot flex justify-center p-10 m-4">
-                        <p> <span className="text-2xl f">R$ 1.235 </span> ou em até 4x R$ 325*5% de desconto à vista ou PIX</p>                        
+                        <p> <span className="text-2xl f">R$ 1240,00 </span> em ate 12x - simular juros das parcelas</p>                        
                         </div>
                     </div>
                     
