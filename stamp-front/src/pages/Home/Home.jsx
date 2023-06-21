@@ -8,7 +8,6 @@ import InterSection2 from "../../components/Intersection/InterSection2";
 import Advantages from "../../components/Advantages/Advantages";
 import WhyUs from "../../components/WhyUs/WhyUs";
 import InterSection3 from "../../components/Intersection/InterSection3";
-import { Route, Routes } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -19,7 +18,6 @@ const Home = () => {
          <div className="h-2  bg-[#78d64b]"></div>
           <HowItWorks/>
           <WhyUs/>
-
           <Advantages/>
           <InterSection1/>
           <InterSection2/>

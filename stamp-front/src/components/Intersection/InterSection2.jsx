@@ -14,14 +14,14 @@ const InterSection2 = () => {
         <div>
                 <div className="image-container">
                     <div className="flex justify-center items-center" >
-                        <img className="" src={groupOffice}/>
+                        <img className="md:h-[420px]" src={groupOffice}/>
                     </div>
                 </div>
             </div>
             <div className="m-2 py-8">
-                <h2 className="m-2 p-2 text-4xl text-[#78d64b] tracking-wide">Registros Inteligentes</h2>
+                <h2 className="m-2 p-2 text-4xl text-[#78d64b] tracking-wide" style={{fontFamily:"helvetica"}}>Registros Inteligentes</h2>
                 <div>
-                    <p className="m-2 p-2 leading-7 text-sm tracking-wide text-black font-light">Em 2020, criamos a Check com o propósito de ajudar microempreendedores e pequenos negócios a proteger um dos maiores ativos de uma empresa: a marca! <br />
+                    <p className="m-2 p-2 leading-7 text-sm tracking-wide text-black font-light" style={{fontFamily:"helvetica"}}>Em 2020, criamos a Check com o propósito de ajudar microempreendedores e pequenos negócios a proteger um dos maiores ativos de uma empresa: a marca! <br />
 
                     Com um processo 100% online, seguro, transparente e investimento acessível, desburocratizamos <br /> essa conquista tão importante para qualquer negócio: o registro de marca no INPI (Instituto Nacional <br /> da Propriedade Industrial).
                     E assim, já cuidamos de mais de 2 mil processos de registro de marca pelo mundo!</p>

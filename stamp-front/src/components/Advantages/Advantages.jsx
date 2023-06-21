@@ -24,12 +24,12 @@ const Advantages = () => {
 
   return (
     <>  
-        <div className="w-100 h-40 bg-[#f7f7f7]"></div>
+        <div id="Advantages" className="w-100 h-40 bg-[#f7f7f7]"></div>
         <div className="lg:grid lg:grid-cols-9 bg-[#f7f7f7] flex flex-col-reverse">
             <div className="lg:flex lg:flex-col lg:overflow-hidden col-span-1 lg:justify-end">
             </div>
             <div className="p-10 col-span-4">
-                <h2 className=" text-3xl text-[Poppins] border-white p-2 py-4 my-4 tracking-wide text-[#78d64b]">Vantagens de ter sua marca <br /> registrada pela Stamp:</h2>
+                <h2 className=" text-3xl text-[Poppins] border-white p-2 py-4 my-4 tracking-wide text-[#78d64b]" style={{fontFamily:"helvetica"}}>Vantagens de ter sua marca <br /> registrada pela Stamp:</h2>
                 <Slider className="py-2" {...settings}>
                     <div className="card p-2">
                         <div>
@@ -39,7 +39,7 @@ const Advantages = () => {
                             </svg>
 
                         </div>
-                        <p className="text-sm font-thin p-2 my-2">Impedir a utilização indevida por terceiros</p>
+                        <p className="text-sm font-thin p-2 my-2" style={{fontFamily:"helvetica"}}>Impedir a utilização indevida por terceiros</p>
                     </div>
                     <div className="card p-2">
                         <div>
@@ -50,7 +50,7 @@ const Advantages = () => {
 
 
                         </div>
-                        <p className="text-sm font-thin  p-2 my-2">Uso exclusivo em território nacional</p>
+                        <p className="text-sm font-thin  p-2 my-2" style={{fontFamily:"helvetica"}}>Uso exclusivo em território nacional</p>
                     </div>
                     <div className="card p-2">
                     <div>
@@ -61,7 +61,7 @@ const Advantages = () => {
 
 
                         </div>
-                        <p className="text-sm font-thin  p-2 my-2">Agregar valor a sua empresa</p>
+                        <p className="text-sm font-thin  p-2 my-2" style={{fontFamily:"helvetica"}}>Agregar valor a sua empresa</p>
                     </div>
                     <div className="card p-2">
                     <div>
@@ -72,7 +72,7 @@ const Advantages = () => {
 
 
                         </div>
-                        <p className="text-sm font-thin  p-2 my-2">Poder utilizar o símbolo ® na sua marca</p>
+                        <p className="text-sm font-thin  p-2 my-2" style={{fontFamily:"helvetica"}}>Poder utilizar o símbolo ® na sua marca</p>
                     </div>
                     <div className="card p-2">
                     <div>
@@ -81,7 +81,7 @@ const Advantages = () => {
                         </svg>
 
                     </div>
-                        <p className="text-sm font-thin  p-2 my-2">Direito de licenciar, vender ou franquear a sua marca</p>
+                        <p className="text-sm font-thin  p-2 my-2" style={{fontFamily:"helvetica"}}>Direito de licenciar, vender ou franquear a sua marca</p>
                     </div>
                     <div className="card p-2">
                     <div>
@@ -90,7 +90,7 @@ const Advantages = () => {
                         </svg>
 
                     </div>
-                    <p className="text-sm font-thin p-2 my-2">Evitar o risco de indenizações por uso indevido de marca</p>
+                    <p className="text-sm font-thin p-2 my-2" style={{fontFamily:"helvetica"}}>Evitar o risco de indenizações por uso indevido de marca</p>
                     </div>
                     <div className="card p-2 ">
                     <div>
@@ -100,7 +100,7 @@ const Advantages = () => {
 
 
                     </div>
-                    <p className="text-sm font-thin  p-2 my-2">Evitar risco de perder todo investimento em identidade visual física e digital </p>
+                    <p className="text-sm font-thin  p-2 my-2" style={{fontFamily:"helvetica"}}>Evitar risco de perder todo investimento em identidade visual física e digital </p>
                     </div>
                     <div className="card p-2">
                     <div>
@@ -109,7 +109,7 @@ const Advantages = () => {
                         </svg>
 
                     </div>
-                    <p className="text-sm font-thin  p-2 my-2">Evitar risco de perder os clientes que conheceram a empresa pelo nome da marca</p>
+                    <p className="text-sm font-thin  p-2 my-2" style={{fontFamily:"helvetica"}}>Evitar risco de perder os clientes que conheceram a empresa pelo nome da marca</p>
                     </div>
 
                     <div className="card p-2">
@@ -119,7 +119,7 @@ const Advantages = () => {
                         </svg>
 
                     </div>
-                    <p className="text-sm font-thin p-2 my-2">Evitar o risco de ter franqueamento da marca vedado por lei</p>
+                    <p className="text-sm font-thin p-2 my-2" style={{fontFamily:"helvetica"}}>Evitar o risco de ter franqueamento da marca vedado por lei</p>
                     </div>
                     
                 </Slider>
@@ -127,7 +127,7 @@ const Advantages = () => {
                 <button className="bg-[#78d64b] self-center text-xl hover:bg-white hover:text-[#78d64b] border-2 border-white hover:border-[#78d64b] text-white px-4 py-3 m-1 rounded-xl">Entrar em contato</button>
                 </Link>
             </div>
-            <div className="md:py-0 md:my-0 py-10 my-10 md:pl-2 col-span-4">
+            <div className="md:py-0 md:my-0 md:py-10 md:my-10 lg:my-0 lg:py-0 md:pl-2 md:col-span-4 flex justify-center items-center">
                 <img className='md:rounded-tl-2xl' src={sectionphoto} alt="" />
             </div>
         </div>
