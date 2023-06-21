@@ -7,13 +7,13 @@ const Price = () => {
   return (
     <>
         <div id="Custos" className="bg-[#78d64b] flex justify-center items-center h-40">
-            <h2 className="text-white text-4xl" style={{fontFamily:"helvetica"}}>Quanto custa?</h2>
+            <h2 className="text-white text-4xl" style={{fontFamily:"helvetica"}}>Sobre o Investimento:</h2>
         </div>
         <div className="bg-[#78d64b] h-48">
         
-        <div className="md:flex md:flex-row flex flex-col p-2 md:p-4">
+        <div className="md:flex md:flex-row flex flex-col justify-center items-center sm:flex sm:flex-col sm:justify-center sm:items-center p-2 md:p-4">
 
-                <div className="border-2 border-white bg-[#78d64b] text-white rounded-2xl lg:h-[460px] lg:w-[400px] h-[460px] w-[400px] md:h-[550px] md:w-[440px]">
+                <div className="border-2 border-white bg-[#78d64b] text-white rounded-2xl lg:h-[460px] lg:w-[400px] h-[460px] w-[400px] md:h-[550px] md:w-[500px] sm:h-[450px] sm:w-[600px]">
                     <div className="boleto">
                         <div className="boleto-top border-2 border-white rounded-2xl w-40 flex m-2">
                             <div className="p-1 m-1 ">
@@ -60,7 +60,7 @@ const Price = () => {
 
 
 
-            <div className="border-2 bg-white h-[460px] w-[400px] lg:h-[460px] lg:w-[400px]  md:h-[550px] md:w-[440px] rounded-2xl border-[#78d64b]">
+            <div className="border-2 bg-white h-[460px] w-[400px] lg:h-[460px] lg:w-[400px]  md:h-[550px] md:w-[500px] rounded-2xl border-[#78d64b] sm:h-[400px] sm:w-[600px]">
             <div className="inpi">
                         <div className="inpi-top border-2 border-[#78d64b] rounded-2xl w-40 flex m-2">
                             <div className="p-1 m-1 ">
@@ -85,7 +85,7 @@ const Price = () => {
             <div className="flex flex-col justify-center md:items-start items-center p-2 m-2">
             <h3 className="text-l text-center md:text-start md:my-0 my-4 font-medium p-2 md:mb-4 text-[#78d64b] md:text-white" style={{fontFamily:"helvetica"}}>REGISTRE SUA MARCA DE FORMA <br /> DESCOMPLICADA E COM VALOR ACESSÍVEL.</h3>
             <Link to="https://wa.me/+558199605252">
-            <button className="bg-[#78d64b] hover:bg-white border-2 md:mb-28 mx-1 border-[#78d64b] hover:text-[#78d64b] text-white p-3  rounded-xl" style={{fontFamily:"helvetica"}}>Converse com a gente</button>
+            <button className="bg-[#78d64b] hover:bg-white border-2 md:mb-28 mx-1 border-[#78d64b] text-xl my-4 hover:text-[#78d64b] text-white p-3  rounded" style={{fontFamily:"helvetica"}}>Converse com a gente</button>
             </Link>
             </div>
 

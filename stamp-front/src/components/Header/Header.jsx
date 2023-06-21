@@ -11,11 +11,11 @@ const Header = () => {
                 <p className="text-xl font-light md:m-5 text-white m-2 p-1" style={{fontFamily:"helvetica"}}>Carimbe o ® no seu legado no mundo dos negócios</p>
                 <div>
                     <Link to="https://wa.me/+558199605252">
-                        <button className="bg-[#78d64b] text-white m-2 font-bold border-2 border-white hover:text-white md:m-5 p-4 rounded text-xl" style={{fontFamily:"helvetica"}}>Converse com a gente</button>
+                        <button className="bg-[#78d64b] text-white m-2 font-bold border-2 border-white md:m-5 p-4 rounded text-xl hover:bg-white hover:text-[#78d64b]" style={{fontFamily:"helvetica"}}>Converse com a gente</button>
                     </Link>
-                    <Link to="#Custos">
-                        <button className="bg-white text-[#78d64b] m-2 font-bold md:m-5 p-4 rounded text-xl" style={{fontFamily:"helvetica"}}>Me mostre os precos</button>
-                    </Link>
+                    <a href="#Custos">
+                        <button className="bg-white text-[#78d64b] m-2 font-bold md:m-5 p-4 rounded text-xl border-2 border-white hover:bg-[#78d64b] hover:text-white" style={{fontFamily:"helvetica"}}>Me mostre os precos</button>
+                    </a>
                 </div>
             </div>
             <div className='flex lg:justify-end items-end'>

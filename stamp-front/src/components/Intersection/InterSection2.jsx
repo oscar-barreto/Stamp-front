@@ -1,30 +1,26 @@
-import dottedBg from "../../assets/images/dottedBg.png";
-import girl from "../../assets/images/girl.png";
 import groupOffice from "../../assets/images/groupOffice.jpg";
 import { Link } from "react-router-dom";
-// import whiteLogo from "../../assets/images/whiteLogo.png"
-// import greenLogo from "../../assets/images/greenLogo.png"
-// import greenStamp from "../../assets/images/greenStamp.jpeg"
+
 
 
 const InterSection2 = () => {
   return (
     <>
-        <div className="grid m-0 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 bg-[#f7f7f7]">
+        <div id="Porque" className="grid m-0 lg:grid-cols-2 md:grid-cols-2 md:grid-cols-1 bg-[#f7f7f7]">
         <div>
                 <div className="image-container">
                     <div className="flex justify-center items-center" >
-                        <img className="md:h-[420px]" src={groupOffice}/>
+                        <img className="" src={groupOffice}/>
                     </div>
                 </div>
             </div>
             <div className="m-2 py-8">
-                <h2 className="m-2 p-2 text-4xl text-[#78d64b] tracking-wide" style={{fontFamily:"helvetica"}}>Registros Inteligentes</h2>
+                <h2 className="m-2 p-2 text-4xl text-[#78d64b] tracking-wide" style={{fontFamily:"helvetica"}}>Sobre a Stamp!</h2>
                 <div>
-                    <p className="m-2 p-2 leading-7 text-sm tracking-wide text-black font-light" style={{fontFamily:"helvetica"}}>Em 2020, criamos a Check com o propósito de ajudar microempreendedores e pequenos negócios a proteger um dos maiores ativos de uma empresa: a marca! <br />
-
-                    Com um processo 100% online, seguro, transparente e investimento acessível, desburocratizamos <br /> essa conquista tão importante para qualquer negócio: o registro de marca no INPI (Instituto Nacional <br /> da Propriedade Industrial).
-                    E assim, já cuidamos de mais de 2 mil processos de registro de marca pelo mundo!</p>
+                    <p className="m-2 p-2 leading-7 text-sm tracking-wide text-black font-light" style={{fontFamily:"helvetica"}}>Nós somos especialistas no registro de marcas, ajudando você a proteger o que é mais importante no seu negócio - a sua identidade única.
+                    A Stamp nasce com o propósito de facilitar o complexo processo de registro de marcas, tornando-o transparente, acessível e eficiente para todos.
+                    Mas, não somos apenas uma empresa de registro de marcas. Somos parceiros de negócios, defensores da criatividade, e acreditamos em sonhos grandes. A Stamp ajudará você a deixar a sua marca no mundo.
+                    Acompanhe nossa jornada e junte-se a nós nessa missão. Vamos carimbar o ® na Marca que você construiu?</p>
                 </div>
                 <div className="icon-container flex p-1">
 
@@ -33,7 +29,7 @@ const InterSection2 = () => {
                     <Link to="https://www.instagram.com/stampmarcas/">
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 mx-3 hover:text-lime-500 text-[#78d64b]"
+                    className="h-4 w-4 mx-3 hover:text-amber-700 text-[#78d64b]"
                     fill="currentColor"
                     viewBox="0 0 24 24">
                     <path
@@ -44,7 +40,7 @@ const InterSection2 = () => {
                     <Link to="https://wa.me/+558199605252">
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 mx-3 hover:text-lime-500 text-[#78d64b]"
+                    className="h-4 w-4 mx-3 hover:text-amber-700 text-[#78d64b]"
                     fill="currentColor"
                     viewBox="0 0 24 24">
                     <path

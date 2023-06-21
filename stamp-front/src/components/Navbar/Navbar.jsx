@@ -9,7 +9,7 @@ const Navbar = () => {
         {name:"COMO FUNCIONA?",link:"#ComoFunciona"},
         {name:"POR QUE STAMP",link:"#Porque"},
         {name:"VANTAGENS",link:"#Advantages"},
-        {name:"CUSTOS",link:"#Custos"},
+        {name:"INVESTIMENTO",link:"#Custos"},
         {name:"CONTATO",link:"#Contato"},
 
       ];
@@ -37,7 +37,7 @@ const Navbar = () => {
                 {
                 Links.map((link)=>(
                     <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 z-2'>
-                    <a href={link.link} className='scroll-smooth text-gray-50 hover:text-lime-500 duration-500 z-2'>{link.name}</a>
+                    <a href={link.link} className='scroll-smooth text-gray-50 hover:text-amber-700 duration-500 z-2'>{link.name}</a>
                     </li>
                 ))
                 }

@@ -6,7 +6,7 @@ const InterSection3 = () => {
         <div className="bg-white w-100 h-80"></div>
         <div className="bg-[#78d64b] w-100 flex flex-col md:flex-row">
             <div className="md:px-20 md:py-20 px-10 py-10">
-                <h1 className="text-white md:text-start p-2 m-2 text-4xl" style={{fontFamily:"helvetica"}}>Registre a sua marca!</h1>
+                <h1 className="text-white md:text-start p-2 m-2 text-4xl" style={{fontFamily:"helvetica"}}>Vamos carimbar o ® no seu negócio</h1>
                 <p className="text-white p-2 m-2 text-l leading-7 font-light" style={{fontFamily:"helvetica"}}>Agora que você entendeu a importância do registro de marca,<br className="md:block hidden" /> vamos dar um check nesse passo tão importante para o seu negócio?</p>
                 <div className="icon-container flex p-1">
 
@@ -15,7 +15,7 @@ const InterSection3 = () => {
                     <Link to="https://www.instagram.com/stampmarcas/">
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 mx-3 hover:text-lime-500 text-white"
+                    className="h-4 w-4 mx-3 hover:text-amber-700 text-white"
                     fill="currentColor"
                     viewBox="0 0 24 24">
                     <path
@@ -26,7 +26,7 @@ const InterSection3 = () => {
                     <Link to="https://wa.me/+558199605252">
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 mx-3 hover:text-lime-500 text-white"
+                    className="h-4 w-4 mx-3 hover:text-amber-700 text-white"
                     fill="currentColor"
                     viewBox="0 0 24 24">
                     <path
@@ -39,7 +39,7 @@ const InterSection3 = () => {
 
                 </div>
             </div>
-            <div className="pb-10 md:pb-0 ml-14 flex md:justify-center items-center">
+            <div className="pb-10 md:pb-0 ml-14 flex md:justify-center items-center ">
             <Link to="https://wa.me/+558199605252">
                 <button className="text-[#78d64b] border-2 border-white hover:bg-[#78d64b] hover:text-white text-xl bg-white p-3 lg:p-3 md:p-2 md:mx-2 rounded" style={{fontFamily:"helvetica"}}>Registre sua marca!</button>
             </Link>
