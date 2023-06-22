@@ -1,4 +1,3 @@
-import Logo from '../../assets/images/logo.png';
 import logoVerde from "../../assets/images/logoVerde.jpeg";
 import { Link } from "react-router-dom";
 

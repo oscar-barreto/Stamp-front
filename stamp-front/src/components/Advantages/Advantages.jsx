@@ -119,12 +119,10 @@ const Advantages = () => {
                     </div>
                     
                 </Slider>
-                <Link to="https://wa.me/+558199605252">
-                <button className="bg-[#78d64b] self-center text-xl hover:bg-white hover:text-[#78d64b] border-2 border-white hover:border-[#78d64b] text-white px-4 py-3 m-1 rounded">Entrar em contato</button>
-                </Link>
+              
             </div>
-            <div className="md:py-0 md:my-0 md:py-10 md:my-10 lg:my-0 my-8 sm:my-0 lg:py-0 md:pl-2 md:col-span-4 flex justify-center items-center">
-                <img className='md:rounded-tl-2xl' src={sectionphoto} alt="" />
+            <div className="md:py-0 md:my-0 lg:my-0 my-8  sm:my-0 lg:py-0 lg:py-0 lg:pl-2 md:col-span-4 flex justify-center items-center">
+                <img className='lg:rounded-tl-2xl' src={sectionphoto} alt="" />
             </div>
         </div>
     </>
