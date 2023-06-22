@@ -47,7 +47,7 @@ const Price = () => {
                             <div className="p-1 m-1 text-xl tracking-wider" style={{fontFamily:"helvetica"}}>Cartão</div>
                         </div>
                         <div className="cartao-bot flex justify-center p-10 m-4">
-                        <p className="" style={{fontFamily:"helvetica"}}> <span className="text-2xl " style={{fontFamily:"helvetica"}}>R$ 1240,00 </span> em ate 12x - simular juros das parcelas</p>                        
+                        <p className="" style={{fontFamily:"helvetica"}}> <span className="text-2xl " style={{fontFamily:"helvetica"}}>R$ 1.240,00 </span> em ate 12x - simular juros das parcelas</p>                        
                         </div>
                     </div>
                     
@@ -83,7 +83,7 @@ const Price = () => {
 
 
             <div className="flex flex-col justify-center md:items-start items-center p-2 m-2">
-            <h3 className="text-l text-center md:text-start md:my-0 my-4 font-medium p-2 md:mb-4 text-[#78d64b] md:text-white" style={{fontFamily:"helvetica"}}>REGISTRE SUA MARCA DE FORMA <br /> DESCOMPLICADA E COM VALOR ACESSÍVEL.</h3>
+            <h3 className="text-l text-center md:text-start md:my-0 my-4 font-medium p-2 md:mb-4 text-[#78d64b] md:text-white" style={{fontFamily:"helvetica"}}>REGISTRE SUA MARCA <br /> COM  eficiência e transparência</h3>
             <Link to="https://wa.me/+558199605252">
             <button className="bg-[#78d64b] hover:bg-white border-2 md:mb-28 mx-1 border-[#78d64b] text-xl my-4 hover:text-[#78d64b] text-white p-3  rounded" style={{fontFamily:"helvetica"}}>Converse com a gente</button>
             </Link>

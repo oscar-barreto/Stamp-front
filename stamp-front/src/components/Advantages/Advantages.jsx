@@ -25,7 +25,7 @@ const Advantages = () => {
             <div className="lg:flex lg:flex-col lg:overflow-hidden col-span-1 lg:justify-end">
             </div>
             <div className="p-10 col-span-4">
-                <h2 className=" text-3xl text-[Poppins] border-white p-2 py-4 my-4 tracking-wide text-[#78d64b]" style={{fontFamily:"helvetica"}}>Vantagens de ter sua marca <br /> registrada pela Stamp:</h2>
+                <h2 className=" text-3xl text-[Poppins] border-white p-2 py-4 my-4 tracking-wide text-[#78d64b]" style={{fontFamily:"helvetica"}}>Vantagens de ter sua marca registrada pela Stamp:</h2>
                 <Slider className="py-2" {...settings}>
                     <div className="card p-2">
                         <div>
