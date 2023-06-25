@@ -1,10 +1,10 @@
-
+import {Link} from "react-router-dom";
 
 const HowItWorks = () => {
   return (
     <>
         <div id="ComoFunciona" className='flex justify-center flex-col items-center lg:py-32 p-2 m-2'>
-                <h2 className="text-3xl tracking-wide text-[#78d64b] py-4 mb-8" style={{fontFamily:"helvetica"}}>Como Funciona o Registro da marca?</h2>
+                <h2 className="text-3xl tracking-wide text-[#78d64b] py-4 mb-8" style={{fontFamily:"helvetica"}}>Entenda o processo:</h2>
             <div className="lg:flex md:flex sm:flex-col md:flex-col lg:flex-row">
                 <div className="flex flex-col justify-center items-center my-4 lg:my-0">
                     <div className="border-2 border-black rounded-full h-20 w-20">
@@ -17,7 +17,8 @@ const HowItWorks = () => {
 
                     </div>
                     <div className="">
-                        <h6 className="text-center p-1 m-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Pesquisa de viabilidade:</h6>
+                        <h6 className="text-center mt-1 pt-1 mx-1 px-1 text-xs  font-thin" style={{fontFamily:"helvetica"}}>6-12 meses</h6>
+                        <h6 className="text-center pb-1 px-1 mb-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Pesquisa de viabilidade:</h6>
                         <p className="text-center p-1 m-1 " style={{fontFamily:"helvetica"}}>Analisamos a disponibilidade <br /> da sua marca, uma etapa <br /> crucial para <br /> evitar futuros problemas.</p>
 
                     </div>
@@ -38,7 +39,8 @@ const HowItWorks = () => {
 
                     </div>
                     <div>
-                        <h6 className="text-center p-1 m-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Protocolo do pedido:</h6>
+                        <h6 className="text-center mt-1 pt-1 mx-1 px-1 text-xs  font-thin" style={{fontFamily:"helvetica"}}>6-12 meses</h6>
+                        <h6 className="text-center pb-1 px-1 mb-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Protocolo do pedido:</h6>
                         <p className="text-center p-1 m-1" style={{fontFamily:"helvetica"}}>Realizamos todo o <br /> processo burocrático  para <br /> você. Relaxa, a Stamp <br /> cuida disso!</p>
                     </div>
                 </div>
@@ -57,7 +59,8 @@ const HowItWorks = () => {
 
                     </div>
                     <div>
-                        <h6 className="text-center p-1 m-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Análise do INPI:</h6>
+                        <h6 className="text-center mt-1 pt-1 mx-1 px-1 text-xs  font-thin" style={{fontFamily:"helvetica"}}>6-12 meses</h6>  
+                        <h6 className="text-center pb-1 px-1 mb-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Análise do INPI:</h6>
                         <p className="text-center p-1 m-1" style={{fontFamily:"helvetica"}}>Agora, é o momento de esperar a <br /> análise do INPI. A paciência é <br /> parte do processo. (leva em <br />
                      média de 6 a 12 meses)</p>
 
@@ -78,7 +81,8 @@ const HowItWorks = () => {
 
                     </div>
                     <div>
-                        <h6 className="text-center p-1 m-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Decisão do INPI:</h6>
+                        <h6 className="text-center mt-1 pt-1 mx-1 px-1 text-xs  font-thin" style={{fontFamily:"helvetica"}}>6-12 meses</h6>
+                        <h6 className="text-center pb-1 px-1 mb-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Decisão do INPI:</h6>
                         <p className="text-center p-1 m-1" style={{fontFamily:"helvetica"}}>A decisão do INPI é <br /> determinante. <br /> Vamos juntos <br /> nessa etapa decisiva!</p>
 
                     </div>
@@ -98,11 +102,17 @@ const HowItWorks = () => {
 
                     </div>
                     <div>
-                        <h6 className="text-center p-1 m-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Emissão do Certificado de Registro de Marca:</h6>
+                        <h6 className="text-center mt-1 pt-1 mx-1 px-1 text-xs font-thin" style={{fontFamily:"helvetica"}}>6-12 meses</h6>
+                        <h6 className="text-center pb-1 px-1 mb-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Emissão do certificado:</h6>
                         <p className="text-center p-1 m-1" style={{fontFamily:"helvetica"}}>Hora do pagamento da taxa final <br /> do INPI e comemorar <br /> a sua  marca com  o ® carimbado! <br /> (validade de 10 anos).</p>
 
                     </div>
                 </div>            
+            </div>
+            <div className="my-20">
+            <Link to="https://wa.me/+558199605252">
+                <button className="bg-[--green] border-2 border-[--green] font-semibold hover:bg-white hover:text-[--green]  text-white p-3 rounded text-l">ENTRE EM CONTATO</button>
+                </Link>
             </div>
         </div>
     </>

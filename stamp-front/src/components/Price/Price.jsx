@@ -9,11 +9,11 @@ const Price = () => {
         <div id="Custos" className="bg-[#78d64b] flex justify-center items-center h-40">
             <h2 className="text-white text-4xl" style={{fontFamily:"helvetica"}}>Sobre o Investimento:</h2>
         </div>
-        <div className="bg-[#78d64b] h-48">
+        <div className="bg-[#78d64b] md:h-48 h-[400px]">
         
         <div className="md:flex md:flex-row flex flex-col justify-center items-center sm:flex sm:flex-col sm:justify-center sm:items-center md:p-2 md:p-4">
 
-                <div className="border-2 border-white bg-[#78d64b] text-white rounded-2xl lg:h-[460px] lg:w-[400px] h-[460px] w-[350px] md:h-[550px] md:w-[500px] sm:h-[450px] sm:w-[600px]">
+                <div className="border-2 border-white bg-[#78d64b] text-white rounded-2xl lg:h-[490px] lg:w-[400px] h-[520px] w-[350px] md:h-[550px] md:w-[500px] sm:h-[450px] sm:w-[600px]">
                     <div className="boleto">
                         <div className="boleto-top border-2 border-white rounded-2xl w-40 flex m-2">
                             <div className="p-1 m-1 ">
@@ -60,7 +60,7 @@ const Price = () => {
 
 
 
-            <div className="border-2 bg-white h-[460px] lg:h-[460px] lg:w-[400px] w-[350px]  md:h-[550px] md:w-[500px] rounded-2xl border-[#78d64b] sm:h-[400px] sm:w-[600px]">
+            <div className="border-2 bg-white h-[520px] lg:h-[490px] lg:w-[400px] w-[350px] md:h-[550px] md:w-[500px] rounded-2xl border-[#78d64b] sm:h-[400px] sm:w-[600px]">
             <div className="inpi">
                         <div className="inpi-top border-2 border-[#78d64b] rounded-2xl w-40 flex m-2">
                             <div className="p-1 m-1 ">
@@ -73,7 +73,7 @@ const Price = () => {
                             </div>
                             <div className="p-1 m-1 text-xl text-[#78d64b] tracking-wider" style={{fontFamily:"helvetica"}}>Taxa INPI</div>
                         </div>
-                        <div className="boleto-bottom flex flex-col justify-center items-center p-10 m-4 mt-24">
+                        <div className="boleto-bottom flex flex-col justify-center items-center p-10 m-4 mt-32">
                             <p className="text-[#78d64b]" style={{fontFamily:"helvetica"}}> <span className="text-2xl " style={{fontFamily:"helvetica"}}>R$ 142 </span>taxa inicial + <span className="text-2xl" style={{fontFamily:"helvetica"}}>R$ 298</span> (pessoas físicas, MEI, ME e EPP)</p>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ const Price = () => {
 
 
         </div>
-        <div className="bg-white h-[800px] md:h-80"></div>
+        <div className="bg-white h-[1000px] md:h-[400px]"></div>
     
     </>
   )

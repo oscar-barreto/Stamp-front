@@ -16,13 +16,20 @@ const Home = () => {
          <div className="h-2 mt-40 bg-[#78d64b]"></div>
          <Header/>
          <div className="h-2  bg-[#78d64b]"></div>
+         <InterSection2/>
           <HowItWorks/>
-          <WhyUs/>
+          {/* <WhyUs/> */}
           <Advantages/>
-          <InterSection1/>
-          <InterSection2/>
+          <InterSection3/>
+
+          {/* <InterSection1/> */}
+
+      
+          <WhyUs/>
+
+          {/* <InterSection2/> */}
          <Price/>
-         <InterSection3/>
+         {/* <InterSection3/> */}
          <Footer/>
    </>
   )

@@ -1,4 +1,3 @@
-import logo from '../../assets/images/logo.png'
 import logoVerde from "../../assets/images/logoVerde.jpeg"
 import { useState } from "react";
 
@@ -6,8 +5,8 @@ const Navbar = () => {
 
     let Links =[
         {name:"HOME",link:"/"},
-        {name:"COMO FUNCIONA?",link:"#ComoFunciona"},
-        {name:"POR QUE STAMP",link:"#Porque"},
+        {name:"SOBRE A STAMP",link:"#Porque"},
+        {name:"ENTENDA O PROCESSO",link:"#ComoFunciona"},
         {name:"VANTAGENS",link:"#Advantages"},
         {name:"INVESTIMENTO",link:"#Custos"},
         {name:"CONTATO",link:"#Contato"},

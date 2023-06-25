@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const InterSection2 = () => {
   return (
     <>
-        <div id="Porque" className="grid m-0 lg:grid-cols-2 md:grid-cols-2 md:grid-cols-1 bg-[#f7f7f7]">
+        <div id="Porque" className="grid m-0 lg:grid-cols-2 md:grid-cols-1 md:grid-cols-1 bg-[#f7f7f7]">
         <div>
                 <div className="image-container">
                     <div className="flex justify-center items-center" >
@@ -17,10 +17,13 @@ const InterSection2 = () => {
             <div className="m-2 py-8">
                 <h2 className="m-2 p-2 text-4xl text-[#78d64b] tracking-wide" style={{fontFamily:"helvetica"}}>Sobre a Stamp!</h2>
                 <div>
-                    <p className="m-2 p-2 leading-7 text-sm tracking-wide text-black font-light" style={{fontFamily:"helvetica"}}>Nós somos especialistas no registro de marcas, ajudando você a proteger o que é mais importante no seu negócio - a sua identidade única. <br />
-                    A Stamp nasce com o propósito de facilitar o complexo processo de registro de marcas, tornando-o transparente, acessível e eficiente para todos. <br />
-                    Mas, não somos apenas uma empresa de registro de marcas. Somos parceiros de negócios, defensores da criatividade, e acreditamos em sonhos grandes. <br /> A Stamp ajudará você a deixar a sua marca no mundo.
-                    Acompanhe nossa jornada e junte-se a nós nessa missão. Vamos carimbar o ® na Marca que você construiu?</p>
+                    <p className="m-2 p-2 leading-8 text-sm text-black font-light" style={{fontFamily:"helvetica"}}>
+                            
+                        Nós somos especialistas no registro de marcas, ajudando você a proteger o que é mais importante no seu negócio - a sua identidade única.
+                        A Stamp nasce com o propósito de facilitar o complexo processo de registro de marcas, tornando-o transparente, acessível e eficiente para todos. 
+                        Mas, não somos apenas uma empresa de registro de marcas. Somos parceiros de negócios, defensores da criatividade, e acreditamos em sonhos grandes. A Stamp ajudará você a deixar a sua marca no mundo.
+                        Acompanhe nossa jornada e junte-se a nós nessa missão. Vamos carimbar o ® na Marca que você construiu?
+                    </p>
                 </div>
                 <div className="icon-container flex p-1">
 
@@ -49,11 +52,13 @@ const InterSection2 = () => {
                     </Link>
 
 
-
+        
 
                 </div>
             </div>
+            
         </div>
+        
 
     </>
   )

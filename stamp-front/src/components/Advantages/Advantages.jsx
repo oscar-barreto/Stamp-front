@@ -1,6 +1,6 @@
 import sectionphoto from "../../assets/images/sectionphoto.png";
 import Slider from "react-slick";
-import { Link } from "react-router-dom";
+import greenLogo from "../../assets/images/greenLogo.png"
 
 
 const Advantages = () => {
@@ -20,12 +20,13 @@ const Advantages = () => {
 
   return (
     <>  
-        <div id="Advantages" className="w-100 h-40 bg-[#f7f7f7]"></div>
-        <div className="lg:grid lg:grid-cols-9 bg-[#f7f7f7] flex flex-col-reverse">
-            <div className="lg:flex lg:flex-col lg:overflow-hidden col-span-1 lg:justify-end">
-            </div>
-            <div className="p-10 col-span-4">
-                <h2 className=" text-3xl text-[Poppins] border-white p-2 py-4 my-4 tracking-wide text-[#78d64b]" style={{fontFamily:"helvetica"}}>Vantagens de ter sua marca registrada pela Stamp:</h2>
+        <div id="Advantages" className="w-100 bg-white"></div>
+        <div className="lg:grid lg:grid-cols-2 flex flex-col-reverse">
+            {/* <div className="lg:flex lg:flex-col w-[300px] lg:overflow-hidden col-span-1 lg:justify-end">
+                <img className="rotate-[20deg]" src={greenLogo} alt="" />
+            </div> */}
+            <div className="p-10 col-span-1">
+                <h2 className=" text-4xl text-[Poppins] border-white p-2 py-4 my-4 tracking-wide text-[#78d64b]" style={{fontFamily:"helvetica"}}>Vantagens de ter sua marca registrada pela Stamp:</h2>
                 <Slider className="py-2" {...settings}>
                     <div className="card p-2">
                         <div>
@@ -121,8 +122,8 @@ const Advantages = () => {
                 </Slider>
               
             </div>
-            <div className="md:py-0 md:my-0 lg:my-0 my-8  sm:my-0 lg:py-0 lg:py-0 lg:pl-2 md:col-span-4 flex justify-center items-center">
-                <img className='lg:rounded-tl-2xl' src={sectionphoto} alt="" />
+            <div className="md:py-0 md:my-0 lg:my-0 my-8  sm:my-0 lg:py-0 lg:py-0 lg:pl-2  md:col-span-1 flex justify-center items-center">
+                <img className='md:rounded-tl-xl' src={sectionphoto} alt="" />
             </div>
         </div>
     </>

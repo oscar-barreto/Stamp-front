@@ -58,11 +58,11 @@ const Footer = () => {
         
         <p className="mb-4" style={{fontFamily:"helvetica"}}>
           <a href="#ComoFunciona" className="text-white hover:text-amber-700" style={{fontFamily:"helvetica"}}
-            >Como funciona?</a>
+            >Entenda o processo</a>
         </p>
         <p className="mb-4" style={{fontFamily:"helvetica"}}>
           <a href="#Porque" className="text-white hover:text-amber-700" style={{fontFamily:"helvetica"}}
-            >Por que a Stamp?</a>
+            >Sobre a Stamp</a>
         </p>
         <p className="mb-4" style={{fontFamily:"helvetica"}}>
           <a href="#Advantages" className="text-white hover:text-amber-700" style={{fontFamily:"helvetica"}}
@@ -105,17 +105,17 @@ const Footer = () => {
           </svg>
           +55 81 9960-5252
         </p>
-        <p className="flex items-center justify-center md:justify-start text-white" style={{fontFamily:"helvetica"}}>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="mr-3 h-5 w-5 text-white">
-
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
-      </svg>
-
-          50.871.378/0001-39
-        </p>
       </div>
     </div>
   </div>
+
+
+  <div className="flex items-center border-t-2 border-white justify-center flex-col  pt-2   lg:justify-center">
+  <p className="text-white text-sm font-thin flex" style={{fontFamily:"helvetica"}}>
+    CNPJ: 50.871.378/0001-39
+        </p>
+        <p className="text-white text-sm font-thin"> Stamp © 2023</p>
+    </div> 
 </footer>
 
 
