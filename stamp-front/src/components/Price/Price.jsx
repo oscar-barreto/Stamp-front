@@ -7,7 +7,7 @@ const Price = () => {
   return (
     <>
         <div id="Custos" className="bg-[#78d64b] flex justify-center items-center h-40">
-            <h2 className="text-white text-4xl" style={{fontFamily:"helvetica"}}>Sobre o Investimento:</h2>
+            <h2 className="text-white text-3xl md:text-4xl" style={{fontFamily:"helvetica"}}>Sobre o Investimento:</h2>
         </div>
         <div className="bg-[#78d64b] md:h-48 h-[400px]">
         
@@ -24,10 +24,10 @@ const Price = () => {
                                 </div>
 
                             </div>
-                            <div className="p-1 m-1 text-xl tracking-wider" style={{fontFamily:"helvetica"}}>Boleto</div>
+                            <div className="whitespace-nowrap py-1 pr-1 m-1 text-xl text-white tracking-wider" style={{fontFamily:"helvetica"}}>Boleto</div>
                         </div>
                         <div className="boleto-bottom flex justify-center p-10 m-4">
-                            <p><span className="text-2xl " style={{fontFamily:"helvetica"}}>R$ 1.180,00 </span> (à vista ou pix) ou em até 4x de <span className="text-2xl f">R$ 310,00</span></p>
+                            <p><span className="text-2xl " style={{fontFamily:"helvetica"}}>R$ 1.180,00 </span> à vista/PIX (5% de desconto) ou em até 4x de <span className="text-2xl f">R$ 310,00</span></p>
                         </div>
                     </div>
                     <div className="w-full border-t border-white"></div>
@@ -44,10 +44,10 @@ const Price = () => {
                                 </svg>
 
                             </div>
-                            <div className="p-1 m-1 text-xl tracking-wider" style={{fontFamily:"helvetica"}}>Cartão</div>
+                            <div className="whitespace-nowrap py-1 pr-1 m-1 text-xl text-white tracking-wider" style={{fontFamily:"helvetica"}}>Cartão</div>
                         </div>
                         <div className="cartao-bot flex justify-center p-10 m-4">
-                        <p className="" style={{fontFamily:"helvetica"}}> <span className="text-2xl " style={{fontFamily:"helvetica"}}>R$ 1.240,00 </span> em ate 12x - simular juros das parcelas</p>                        
+                        <p className="" style={{fontFamily:"helvetica"}}> <span className="text-2xl " style={{fontFamily:"helvetica"}}>R$ 1.240,00* </span> em até 12x (simular juros de parcelas)</p>                        
                         </div>
                     </div>
                     
@@ -71,10 +71,10 @@ const Price = () => {
                                 </div>
 
                             </div>
-                            <div className="p-1 m-1 text-xl text-[#78d64b] tracking-wider" style={{fontFamily:"helvetica"}}>Taxa INPI</div>
+                            <div className="whitespace-nowrap py-1 pr-1 m-1 text-xl text-[#78d64b] tracking-wider" style={{fontFamily:"helvetica"}}>Taxas INPI</div>
                         </div>
-                        <div className="boleto-bottom flex flex-col justify-center items-center p-10 m-4 mt-32">
-                            <p className="text-[#78d64b]" style={{fontFamily:"helvetica"}}> <span className="text-2xl " style={{fontFamily:"helvetica"}}>R$ 142 </span>taxa inicial + <span className="text-2xl" style={{fontFamily:"helvetica"}}>R$ 298</span> (pessoas físicas, MEI, ME e EPP)</p>
+                        <div className="boleto-bottom flex flex-col justify-center items-center p-10 m-4 mt-16">
+                            <p className="text-[#78d64b]" style={{fontFamily:"helvetica"}}>Taxa Inicial: <span className="text-2xl " style={{fontFamily:"helvetica"}}>R$ 142,00* </span>(inclusa no valor do serviço) <br /> <br /> Taxa Final: <span className="text-2xl" style={{fontFamily:"helvetica"}}>R$ 298,00*</span>(*Pessoas Físicas, MEI, ME e EPP)</p>
                         </div>
                     </div>
                     <div className="w-full border-t border-white"></div>
@@ -85,8 +85,9 @@ const Price = () => {
             <div className="flex flex-col justify-center md:items-start items-center p-2 m-2">
             <h3 className="text-l text-center md:text-start md:my-0 my-4 font-medium p-2 md:mb-4 text-[#78d64b] md:text-white" style={{fontFamily:"helvetica"}}>REGISTRE SUA MARCA <br /> COM EFICIÊNCIA E TRANSPARÊNCIA</h3>
             <Link to="https://wa.me/+558199605252">
-            <button className="bg-[#78d64b] hover:bg-white border-2 md:mb-28 mx-1 border-[#78d64b] text-xl my-4 hover:text-[#78d64b] text-white p-3  rounded" style={{fontFamily:"helvetica"}}>Converse com a gente</button>
+            <button className="bg-[#78d64b] hover:bg-white border-2 mx-1 border-[#78d64b] mt-12 mb-12 text-xl my-4 hover:text-[#78d64b] text-white p-3  rounded" style={{fontFamily:"helvetica"}}>Converse com a gente</button>
             </Link>
+            <p className="text-xs md:text-start text-center font-light mx-1 md:mb-10 text-[--green]">POSSUÍMOS SUPORTE ESPECIALIZADO AO <br />CLIENTE DISPONÍVEL ATRAVÉS DOS NOSSOS<br /> CANAIS DE COMUNICAÇÃO</p>
             </div>
 
 
@@ -95,7 +96,7 @@ const Price = () => {
 
 
         </div>
-        <div className="bg-white h-[1000px] md:h-[400px]"></div>
+        <div className="bg-white h-[1080px] md:h-[400px]"></div>
     
     </>
   )

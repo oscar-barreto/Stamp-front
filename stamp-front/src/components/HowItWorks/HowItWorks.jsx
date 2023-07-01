@@ -17,7 +17,6 @@ const HowItWorks = () => {
 
                     </div>
                     <div className="">
-                        <h6 className="text-center mt-1 pt-1 mx-1 px-1 text-xs  font-thin" style={{fontFamily:"helvetica"}}>6-12 meses</h6>
                         <h6 className="text-center pb-1 px-1 mb-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Pesquisa de viabilidade:</h6>
                         <p className="text-center p-1 m-1 " style={{fontFamily:"helvetica"}}>Analisamos a disponibilidade <br /> da sua marca, uma etapa <br /> crucial para <br /> evitar futuros problemas.</p>
 
@@ -39,7 +38,6 @@ const HowItWorks = () => {
 
                     </div>
                     <div>
-                        <h6 className="text-center mt-1 pt-1 mx-1 px-1 text-xs  font-thin" style={{fontFamily:"helvetica"}}>6-12 meses</h6>
                         <h6 className="text-center pb-1 px-1 mb-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Protocolo do pedido:</h6>
                         <p className="text-center p-1 m-1" style={{fontFamily:"helvetica"}}>Realizamos todo o <br /> processo burocrático  para <br /> você. Relaxa, a Stamp <br /> cuida disso!</p>
                     </div>
@@ -59,7 +57,6 @@ const HowItWorks = () => {
 
                     </div>
                     <div>
-                        <h6 className="text-center mt-1 pt-1 mx-1 px-1 text-xs  font-thin" style={{fontFamily:"helvetica"}}>6-12 meses</h6>  
                         <h6 className="text-center pb-1 px-1 mb-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Análise do INPI:</h6>
                         <p className="text-center p-1 m-1" style={{fontFamily:"helvetica"}}>Agora, é o momento de esperar a <br /> análise do INPI. A paciência é <br /> parte do processo. (leva em <br />
                      média de 6 a 12 meses)</p>
@@ -81,7 +78,6 @@ const HowItWorks = () => {
 
                     </div>
                     <div>
-                        <h6 className="text-center mt-1 pt-1 mx-1 px-1 text-xs  font-thin" style={{fontFamily:"helvetica"}}>6-12 meses</h6>
                         <h6 className="text-center pb-1 px-1 mb-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Decisão do INPI:</h6>
                         <p className="text-center p-1 m-1" style={{fontFamily:"helvetica"}}>A decisão do INPI é <br /> determinante. <br /> Vamos juntos <br /> nessa etapa decisiva!</p>
 
@@ -102,7 +98,6 @@ const HowItWorks = () => {
 
                     </div>
                     <div>
-                        <h6 className="text-center mt-1 pt-1 mx-1 px-1 text-xs font-thin" style={{fontFamily:"helvetica"}}>6-12 meses</h6>
                         <h6 className="text-center pb-1 px-1 mb-1 text-[#78d64b] font-bold" style={{fontFamily:"helvetica"}}>Emissão do certificado:</h6>
                         <p className="text-center p-1 m-1" style={{fontFamily:"helvetica"}}>Hora do pagamento da taxa final <br /> do INPI e comemorar <br /> a sua  marca com  o ® carimbado! <br /> (validade de 10 anos).</p>
 

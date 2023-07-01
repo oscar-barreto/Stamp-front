@@ -5,8 +5,8 @@ const InterSection3 = () => {
     <>  
         <div className="bg-[#78d64b] w-100 flex flex-col md:flex-row">
             <div className="md:px-20 md:py-20 px-10 py-10">
-                <h1 className="text-white md:text-start p-2 m-2 text-4xl" style={{fontFamily:"helvetica"}}>Vamos carimbar o ® no seu negócio</h1>
-                <p className="text-white p-2 m-2 text-l leading-7 font-light" style={{fontFamily:"helvetica"}}>Proteja a sua marca, entre em contato conosco para <br /> garantir o seu registro de maneira transparente e eficiente.</p>
+                <h1 className="text-white md:text-start p-2 m-2 text-3xl md:text-4xl" style={{fontFamily:"helvetica"}}>Vamos carimbar o ® no seu negócio</h1>
+                <p className="text-white p-2 m-2 text-l leading-7 font-light" style={{fontFamily:"helvetica"}}>Proteja a sua marca, entre em contato conosco para <br className="sm:block hidden" /> garantir o seu registro de maneira transparente e eficiente.</p>
                 <div className="icon-container flex p-1">
 
 

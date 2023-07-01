@@ -15,7 +15,7 @@ const InterSection2 = () => {
                 </div>
             </div>
             <div className="m-2 py-8">
-                <h2 className="m-2 p-2 text-4xl text-[#78d64b] tracking-wide" style={{fontFamily:"helvetica"}}>Sobre a Stamp!</h2>
+                <h2 className="m-2 p-2 text-3xl md:text-4xl text-[#78d64b] tracking-wide" style={{fontFamily:"helvetica"}}>Sobre a Stamp!</h2>
                 <div>
                     <p className="m-2 p-2 leading-8 text-sm text-black font-light" style={{fontFamily:"helvetica"}}>
                             
