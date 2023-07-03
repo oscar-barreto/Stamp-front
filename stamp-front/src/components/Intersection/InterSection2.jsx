@@ -10,7 +10,7 @@ const InterSection2 = () => {
         <div>
                 <div className="image-container">
                     <div className="flex justify-center items-center" >
-                        <img className="" src={groupOffice}/>
+                        <img loading="lazy" className="" src={groupOffice}/>
                     </div>
                 </div>
             </div>

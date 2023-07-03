@@ -1,6 +1,8 @@
-import sectionphoto from "../../assets/images/sectionphoto.png";
 import Slider from "react-slick";
-import greenLogo from "../../assets/images/greenLogo.png"
+import sectionphoto from "../../assets/images/sectionphoto.jpg"
+
+
+
 
 
 const Advantages = () => {
@@ -15,6 +17,8 @@ const Advantages = () => {
         autoplaySpeed: 2000,
         cssEase: "linear"
       };
+
+
 
 
 
@@ -123,7 +127,7 @@ const Advantages = () => {
               
             </div>
             <div className="md:py-0 md:my-0 lg:my-0 my-8  sm:my-0 lg:py-0 lg:py-0 lg:pl-2  md:col-span-1 flex justify-center items-center">
-                <img className='md:rounded-tl-xl' src={sectionphoto} alt="" />
+                <img loading="lazy" className='md:rounded-tl-xl' src={sectionphoto} alt="" />
             </div>
         </div>
     </>

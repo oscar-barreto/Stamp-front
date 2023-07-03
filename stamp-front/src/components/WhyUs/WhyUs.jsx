@@ -1,4 +1,4 @@
-import greenWhiteLogo from "../../assets/images/greenwhitelogo.jpeg";
+import greenWhiteLogo from "../../assets/images/greenwhitelogo.jpg";
 import { Link } from "react-router-dom";
 
 

@@ -1,4 +1,4 @@
-import whiteLogo from '../../assets/images/whiteLogo.png';
+import greenWhiteLogo from '../../assets/images/greenWhiteLogo.jpg';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -19,7 +19,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='flex justify-end lg:justify-end items-end'>
-                <img className='md:h-40 h-20 lg:p-5' src={whiteLogo} alt="" />
+                <img className='md:h-40 h-20 lg:p-5' src={greenWhiteLogo} alt="" />
             </div>
         </div>
     </>

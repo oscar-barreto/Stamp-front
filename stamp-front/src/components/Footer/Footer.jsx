@@ -1,4 +1,4 @@
-import logoVerde from "../../assets/images/logoVerde.jpeg";
+import logoVerde from "../../assets/images/logoVerde.jpg";
 import { Link } from "react-router-dom";
 
 
