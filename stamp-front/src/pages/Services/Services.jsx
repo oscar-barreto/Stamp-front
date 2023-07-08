@@ -11,6 +11,7 @@ const Services = () => {
       <div id="Services">
         <Navbar/>
         <Options/>
+            {/* <Alternative/> */}
         <EmailForm/>
         <Footer/>
         </div>
