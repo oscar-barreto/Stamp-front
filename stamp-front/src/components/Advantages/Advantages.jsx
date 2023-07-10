@@ -24,7 +24,7 @@ const Advantages = () => {
 
   return (
     <>  
-        <div id="Advantages" className="w-100 bg-white"></div>
+        <div className="w-100 bg-white"></div>
         <div className="lg:grid lg:grid-cols-2 flex flex-col-reverse">
             {/* <div className="lg:flex lg:flex-col w-[300px] lg:overflow-hidden col-span-1 lg:justify-end">
                 <img className="rotate-[20deg]" src={greenLogo} alt="" />

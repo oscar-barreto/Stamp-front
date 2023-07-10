@@ -57,19 +57,19 @@ const Footer = () => {
         </h6>
         
         <p className="mb-4" style={{fontFamily:"helvetica"}}>
-          <a href="#ComoFunciona" className="text-white hover:text-amber-700" style={{fontFamily:"helvetica"}}
+          <a href="/#ComoFunciona" className="text-white hover:text-amber-700" style={{fontFamily:"helvetica"}}
             >Entenda o processo</a>
         </p>
         <p className="mb-4" style={{fontFamily:"helvetica"}}>
-          <a href="#Porque" className="text-white hover:text-amber-700" style={{fontFamily:"helvetica"}}
+          <a href="/#Sobre-a-Stamp" className="text-white hover:text-amber-700" style={{fontFamily:"helvetica"}}
             >Sobre a Stamp</a>
         </p>
         <p className="mb-4" style={{fontFamily:"helvetica"}}>
-          <a href="#Advantages" className="text-white hover:text-amber-700" style={{fontFamily:"helvetica"}}
+          <a href="/#Vantagens" className="text-white hover:text-amber-700" style={{fontFamily:"helvetica"}}
             >Vantagens</a>
         </p>
         <p className="mb-4" style={{fontFamily:"helvetica"}}>
-          <a href="#Custos" className="text-white hover:text-amber-700" style={{fontFamily:"helvetica"}}
+          <a href="/#Investimento" className="text-white hover:text-amber-700" style={{fontFamily:"helvetica"}}
             >Investimento</a>
         </p>
 

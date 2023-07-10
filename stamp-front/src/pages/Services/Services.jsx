@@ -12,7 +12,7 @@ const Services = () => {
         <Navbar/>
         <Options/>
             {/* <Alternative/> */}
-        <EmailForm/>
+        {/* <EmailForm/> */}
         <Footer/>
         </div>
     </>

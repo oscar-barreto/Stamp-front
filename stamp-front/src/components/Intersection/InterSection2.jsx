@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const InterSection2 = () => {
   return (
     <>
-        <div id="Porque" className="grid m-0 lg:grid-cols-2 md:grid-cols-1 md:grid-cols-1 bg-[#f7f7f7]">
+        <div className="grid m-0 lg:grid-cols-2 md:grid-cols-1 md:grid-cols-1 bg-[#f7f7f7]">
         <div>
                 <div className="image-container">
                     <div className="flex justify-center items-center" >

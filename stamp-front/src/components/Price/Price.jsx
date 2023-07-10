@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const Price = () => {
   return (
     <>
-        <div id="Custos" className="bg-[#78d64b] flex justify-center items-center h-40">
+        <div id="Investimento" className="bg-[#78d64b] flex justify-center items-center h-40">
             <h2 className="text-white text-3xl md:text-4xl" style={{fontFamily:"helvetica"}}>Sobre o Investimento:</h2>
         </div>
         <div className="bg-[#78d64b] md:h-48 h-[400px]">

@@ -19,7 +19,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='flex justify-end lg:justify-end items-end'>
-                <img className='md:h-40 h-20 lg:p-5' src={greenWhiteLogo} alt="" />
+                <img  id="Sobre-a-Stamp" className='md:h-40 h-20 lg:p-5' src={greenWhiteLogo} alt="" />
             </div>
         </div>
     </>
