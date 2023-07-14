@@ -22,7 +22,7 @@ const InterSection3 = () => {
                     </svg>
                     </Link>
 
-                    <Link to="https://wa.me/+558199605252">
+                    <Link to="https://wa.me/558188175252">
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-4 w-4 mx-3 hover:text-amber-700 text-white"
@@ -39,7 +39,7 @@ const InterSection3 = () => {
                 </div>
             </div>
             <div className="pb-10 md:pb-0 ml-14 flex md:justify-center items-center ">
-            <Link to="https://wa.me/+558199605252">
+            <Link to="https://wa.me/558188175252">
                 <button className="text-[#78d64b] border-2 border-white hover:bg-[#78d64b] hover:text-white text-xl bg-white p-3 lg:p-3 md:p-2 md:mx-2 rounded" style={{fontFamily:"helvetica"}}>Vamos começar?</button>
             </Link>
             </div>

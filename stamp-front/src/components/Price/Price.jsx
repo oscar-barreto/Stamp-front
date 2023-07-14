@@ -13,7 +13,7 @@ const Price = () => {
         
         <div className="md:flex md:flex-row flex flex-col justify-center items-center sm:flex sm:flex-col sm:justify-center sm:items-center md:p-2 md:p-4">
 
-                <div className="border-2 border-white bg-[#78d64b] text-white rounded-2xl lg:h-[490px] lg:w-[400px] h-[520px] w-[350px] md:h-[550px] md:w-[500px] sm:h-[450px] sm:w-[600px]">
+                <div className="border-2 border-white bg-[#78d64b] text-white rounded-2xl xl:h-[438px] xl:w-[440px] lg:h-[472px] lg:w-[440px] h-[425px] w-[354px] md:h-[550px] md:w-[500px] sm:h-[450px] sm:w-[600px]">
                     <div className="boleto">
                         <div className="boleto-top border-2 border-white rounded-2xl w-40 flex m-2">
                             <div className="p-1 m-1 ">
@@ -26,8 +26,16 @@ const Price = () => {
                             </div>
                             <div className="whitespace-nowrap py-1 pr-1 m-1 text-xl text-white tracking-wider" style={{fontFamily:"helvetica"}}>Boleto</div>
                         </div>
-                        <div className="boleto-bottom flex justify-center p-10 m-4">
-                            <p><span className="text-2xl " style={{fontFamily:"helvetica"}}>R$ 1.180,00 </span> à vista/PIX (5% de desconto) ou em até 4x de <span className="text-2xl f">R$ 310,00</span></p>
+                        <div className="boleto-bottom flex justify-center trscking-tight sm:tracking-normal flex-col justify-center items-center pl-16 ml-4 px-10 py-6 m-4">
+                            <p className="text-xs sm:text-sm text-justify">
+                            R$ 
+                                <span className="text-lg tracking-tighter sm:tracking-normal sm:text-2xl" style={{fontFamily:"helvetica"}}> 1.180* </span>
+                                ou em até 4x de R$                         
+                                <span className="text-lg tracking-tighter sm:tracking-normal  sm:text-2xl" style={{fontFamily:"helvetica"}}> 310</span>
+                                <br />
+                                * à vista/PIX (5% de desconto)                           
+                                <br />
+                            </p>
                         </div>
                     </div>
                     <div className="w-full border-t border-white"></div>
@@ -46,8 +54,19 @@ const Price = () => {
                             </div>
                             <div className="whitespace-nowrap py-1 pr-1 m-1 text-xl text-white tracking-wider" style={{fontFamily:"helvetica"}}>Cartão</div>
                         </div>
-                        <div className="cartao-bot flex justify-center p-10 m-4">
-                        <p className="" style={{fontFamily:"helvetica"}}> <span className="text-2xl " style={{fontFamily:"helvetica"}}>R$ 1.240,00* </span> em até 12x (simular juros de parcelas)</p>                        
+                        <div className="cartao-bot flex justify-center items-center flex-col px-10 py-10 m-4">
+                        
+                        <p className="text-justify text-sm  tracking-tight sm:tracking-normal " style={{fontFamily:"helvetica"}}>R$
+                        <span className="text-lg tracking-tighter sm:tracking-normal  sm:text-2xl " style={{fontFamily:"helvetica"}}> 1.240* </span>
+                        (*em até 12x) 
+                            <br/>
+                            *(simular juros de parcelas)
+                            {/* *(Valor de 01 Classe) */}
+                            </p>
+                        
+                        </div>
+                        <div className="flex text-sm justify-end  sm:mt-0 lg:pb-4 px-3 mb-2">                        
+                            *(Valor de 01 Classe)
                         </div>
                     </div>
                     
@@ -60,7 +79,7 @@ const Price = () => {
 
 
 
-            <div className="border-2 bg-white h-[520px] lg:h-[490px] lg:w-[400px] w-[350px] md:h-[550px] md:w-[500px] rounded-2xl border-[#78d64b] sm:h-[400px] sm:w-[600px]">
+            <div className="border-2 bg-white h-[425px] xl:h-[438px] xl:w-[440px] lg:h-[472px] lg:w-[440px] w-[350px] md:h-[550px] md:w-[500px] rounded-2xl border-[#78d64b] sm:h-[450px] sm:w-[600px]">
             <div className="inpi">
                         <div className="inpi-top border-2 border-[#78d64b] rounded-2xl w-40 flex m-2">
                             <div className="p-1 m-1 ">
@@ -73,8 +92,9 @@ const Price = () => {
                             </div>
                             <div className="whitespace-nowrap py-1 pr-1 m-1 text-xl text-[#78d64b] tracking-wider" style={{fontFamily:"helvetica"}}>Taxas INPI</div>
                         </div>
-                        <div className="boleto-bottom flex flex-col justify-center items-center p-10 m-4 mt-16">
-                            <p className="text-[#78d64b]" style={{fontFamily:"helvetica"}}>Taxa Inicial: <span className="text-2xl " style={{fontFamily:"helvetica"}}>R$ 142,00* </span>(inclusa no valor do serviço) <br /> <br /> Taxa Final: <span className="text-2xl" style={{fontFamily:"helvetica"}}>R$ 298,00*</span>(*Pessoas Físicas, MEI, ME e EPP)</p>
+                        <div className="boleto-bottom flex flex-col justify-center items-center p-10 m-4 mt-16 sm:mt-24">
+                            <p className="text-[#78d64b]" style={{fontFamily:"helvetica"}}>Taxa Inicial: <span className="text-2xl " style={{fontFamily:"helvetica"}}>R$ 142</span><br /> <br /> Taxa Final: <span className="text-2xl" style={{fontFamily:"helvetica"}}>R$ 298</span></p>
+                            <p className="text-[#78d64b] text-xs" style={{fontFamily:"helvetica"}}>(*Pessoas Físicas, MEI, ME e EPP)</p>
                         </div>
                     </div>
                     <div className="w-full border-t border-white"></div>
@@ -84,10 +104,10 @@ const Price = () => {
 
             <div className="flex flex-col justify-center md:items-start items-center p-2 m-2">
             <h3 className="text-l text-center md:text-start md:my-0 my-4 font-medium p-2 md:mb-4 text-[#78d64b] md:text-white" style={{fontFamily:"helvetica"}}>REGISTRE SUA MARCA <br /> COM EFICIÊNCIA E TRANSPARÊNCIA</h3>
-            <Link to="https://wa.me/+558199605252">
-            <button className="bg-[#78d64b] hover:bg-white border-2 mx-1 border-[#78d64b] mt-12 mb-12 text-xl my-4 hover:text-[#78d64b] text-white p-3  rounded" style={{fontFamily:"helvetica"}}>Converse com a gente</button>
+            <Link to="https://wa.me/558188175252">
+                <button className="bg-[#78d64b] hover:bg-white border-2 mx-1 border-[#78d64b] xl:mt-20 mt-12 mb-12 text-xl my-4 hover:text-[#78d64b] text-white p-3 lg:p-3 md:p-2 rounded" style={{fontFamily:"helvetica"}}>Converse com a gente</button>
             </Link>
-            <p className="text-xs md:text-start text-center font-light mx-1 md:mb-10 text-[--green]">POSSUÍMOS SUPORTE ESPECIALIZADO AO <br />CLIENTE DISPONÍVEL ATRAVÉS DOS NOSSOS<br /> CANAIS DE COMUNICAÇÃO</p>
+            <p className="text-xs md:text-start text-center font-light mx-1 md:mb-10 text-[--green]">OS ORÇAMENTOS SÃO PERSONALIZADOS <br /> E POSSUÍMOS SUPORTE ESPECIALIZADO AO <br />CLIENTE DISPONÍVEL ATRAVÉS DOS NOSSOS<br /> CANAIS DE COMUNICAÇÃO</p>
             </div>
 
 

@@ -24,7 +24,7 @@ const WhyUs = () => {
                       seu design simples e colorido tornou-se um símbolo da cultura brasileira ao
                       redor do mundo</p>
                       <div className="flex md:justify-center justify-center py-2 md:py-0">
-                        <Link to="https://wa.me/+558199605252">
+                        <Link to="https://wa.me/558188175252">
                         <button className="bg-white text-xl p-3 m-4 text-[#78d64b] hover:text-white border-2 border-white hover:bg-[#78d64b] rounded" style={{fontFamily:"helvetica"}}>Entrar em contato</button>
                         </Link>
                       </div>
@@ -33,7 +33,7 @@ const WhyUs = () => {
           </div>
       </div>
       <div className="w-full md:h-64 h-[500px] bg-white"></div>
-      <div className="w-full h-28 bg-white">
+      <div className="w-full md:h-28 sm:h-40 h-44 bg-white">
         
         </div>
     

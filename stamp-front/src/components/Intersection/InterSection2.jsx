@@ -40,7 +40,7 @@ const InterSection2 = () => {
                     </svg>
                     </Link>
 
-                    <Link to="https://wa.me/+558199605252">
+                    <Link to="https://wa.me/558188175252">
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-4 w-4 mx-3 hover:text-amber-700 text-[#78d64b]"
