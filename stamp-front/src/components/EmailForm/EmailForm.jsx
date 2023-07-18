@@ -9,22 +9,27 @@ const EmailForm = () => {
     const [name,setName]= useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
-    const [reason, setReason]= useState('')
-    const [message, setMessage] = useState('');
+    const [reason, setReason]= useState();
+    const [brandType, setBrandType] = useState();
+    // const [message, setMessage] = useState('');
 
 
   function sendEmail(e){
     e.preventDefault();
-    if(name==''|| email ==''|| message== ''|| phone == ''){
+
+    // message== ''
+
+    if(name==''|| email ==''|| phone == ''){
       alert('Preencha todos os campos');
       return;
     }
 
     const templateParams = {
       from_name: name,
-      message: message,
+      // message: message,
       phone: phone,
       reason: reason,
+      brandType: brandType,
       email: email
     }
 
@@ -34,9 +39,10 @@ const EmailForm = () => {
       console.log('email enviado', response.status, response.text)
       setEmail('')
       setName('')
-      setReason('')
       setPhone('')
-      setMessage('')
+      setReason(reason)
+      setBrandType(brandType)
+      // setMessage('')
     }, (err)=>{
       console.log('Error: ', err)
     })
@@ -61,7 +67,7 @@ const EmailForm = () => {
         <div>
 
           <label htmlFor="Name" className="block mb-2 text-sm font-medium text-gray-900">Nome: </label>
-          <input type="text" onChange={(e)=>setName(e.target.value)} value={name} id="name" className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b]" placeholder="name" required/>
+          <input type="text" onChange={(e)=>setName(e.target.value)} value={name} id="name" className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b]" placeholder="nome" required/>
 
         </div>
 
@@ -69,7 +75,7 @@ const EmailForm = () => {
         <div>
 
             <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900">Email: </label>
-            <input type="email" onChange={(e)=>setEmail(e.target.value)} value={email} id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b] rounded-lg block w-full p-2.5" placeholder=" email" required/>
+            <input type="email" onChange={(e)=>setEmail(e.target.value)} value={email} id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b] rounded-lg block w-full p-2.5" placeholder="email" required/>
         </div>
 
 
@@ -83,10 +89,19 @@ const EmailForm = () => {
 
         <div>
 
+          {/* REASON DROPDOWN SELECT */}
+
+
           <label htmlFor="reason" className="block mb-2 text-sm font-medium text-gray-900">Por que está buscando o registro? </label>
 
-          <select onChange={(e)=>setReason(e.target.value)} id="reason" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b] rounded-lg block w-full p-2.5" placeholder="Por que está buscando o registro?" required>
+          <select name="reason"
+          onChange={(e)=>setReason(e.target.value)} 
+          id="reason" 
+          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b] rounded-lg block w-full p-2.5" 
+          placeholder="Por que está buscando o registro?"
+          required>
 
+            <option value={reason}></option>
             <option value={reason}>Curiosidade/ Dúvida</option>
             <option value={reason}>Sei da importância e quero me precaver</option>
             <option value={reason}>Existe um concorrente que está me copiando</option>
@@ -94,12 +109,70 @@ const EmailForm = () => {
           </select>
         </div>
 
-        <div className="sm:col-span-2">
+        <div>
+
+          {/* BRAND TYPE DROPDOWN SELECT */}
+
+
+          <label htmlFor="brandType" className="block mb-2 text-sm font-medium text-gray-900">Qual segmento de atuação da marca?</label>
+
+          <select name="brandType"
+          onChange={(e)=>setBrandType(e.target.value)} 
+          id="brandType" 
+          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b] rounded-lg block w-full p-2.5" 
+          placeholder="Qual segmento de atuação da marca?"
+          required>
+
+            <option value={reason}></option>
+            <option value={brandType}>Academias</option>
+            <option value={brandType}>Agência de Marketing e Comunicação</option>
+            <option value={brandType}>Agronegócio</option>
+            <option value={brandType}>Artesanatos / Crochê</option>
+            <option value={brandType}>Assistência técnica de eletrônicos</option>
+            <option value={brandType}>Barbearia / Salão de Beleza</option>
+            <option value={brandType}>Canal no Youtube</option>
+            <option value={brandType}>Cantor / Ator / Artista</option>
+            <option value={brandType}>Clínica Médica / Estética / Veterinária</option>
+            <option value={brandType}>Construtora / Incorporadora / Imobiliária</option>
+            <option value={brandType}>Corretora de Seguros / Seguradoras</option>
+            <option value={brandType}>Cosméticos</option>
+            <option value={brandType}>Decoração de Festas</option>
+            <option value={brandType}>Delivery de alimentos</option>
+            <option value={brandType}>Drogaria / Farmácia</option>
+            <option value={brandType}>Ecommerce e Marketplaces</option>
+            <option value={brandType}>Editora de Livros / Livraria</option>
+            <option value={brandType}>Engenharia e Arquitetura</option>
+            <option value={brandType}>Escritório de Advocacia / Serviços Jurídicos</option>
+            <option value={brandType}>Infoproduto</option>
+            <option value={brandType}>Loja de Roupas / Vestuário</option>
+            <option value={brandType}>Mercearia / Fabricação de Móveis</option>
+            <option value={brandType}>Loja de Roupas / Vestuário</option>
+            <option value={brandType}>ONG's</option>
+            <option value={brandType}>Pet shop e artigos pet</option>
+            <option value={brandType}>Semijoias</option>
+            <option value={brandType}>Serviços Financeiros e Crédito</option>
+            <option value={brandType}>Tecnologia e Software</option>
+            <option value={brandType}>Telecomunicação</option>
+            <option value={brandType}>Turismo</option>
+            <option value={brandType}>Outros</option>
+
+
+
+
+        
+
+
+
+
+          </select>
+          </div>
+
+         {/* <div className="sm:col-span-2">
               <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 ">Your message</label>
               <textarea id="message" onChange={(e)=>setMessage(e.target.value)} value={message} rows="6" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-2 focus:outline-none focus:ring-[#78d64b]" placeholder="Leave a comment..."></textarea>
-          </div>
-          <button type="" className="bg-[#78d64b] text-white py-3 px-5 text-l font-medium text-center rounded-lg sm:w-fit ">Click me</button>
-
+          </div> */}
+          <button type="" className="bg-[#78d64b] text-white py-3 px-5 text-l font-medium text-center rounded-lg sm:w-fit ">ENVIAR</button>
+ 
 
 
 
