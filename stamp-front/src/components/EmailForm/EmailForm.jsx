@@ -1,5 +1,6 @@
 import { useState } from "react";
-import emailjs from "@emailjs/browser"
+import emailjs from "@emailjs/browser";
+import toast, {Toaster} from "react-hot-toast";
 
 
 
@@ -12,6 +13,11 @@ const EmailForm = () => {
     const [reason, setReason]= useState();
     const [brandType, setBrandType] = useState();
     // const [message, setMessage] = useState('');
+
+
+    const notify = () => toast.success('Email Enviado!')
+
+
 
 
   function sendEmail(e){
@@ -33,13 +39,16 @@ const EmailForm = () => {
       email: email
     }
 
+
+
     emailjs.send('service_1ex69ch', 'template_hguemv4', templateParams, 'RSUSvedACuJwuKEfo')
     .then((response)=>{
-      alert('email enviado')
-      console.log('email enviado', response.status, response.text)
+      // alert('email enviado')
+      // console.log('email enviado', response.status, response.text)
       setEmail('')
       setName('')
       setPhone('')
+      notify();
       setReason(reason)
       setBrandType(brandType)
       // setMessage('')
@@ -54,35 +63,33 @@ const EmailForm = () => {
 
   return (
     <>
-  <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+  <div className="py-8 lg:py-10 px-10 lg:w-[400px] mx-auto">
 
-    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-[--green]" style={{fontFamily:'helvetica'}}>Entre em Contato</h2>
-    <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl"  style={{fontFamily:'helvetica'}}>Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+    <h2 className="mb-2 text-3xl md:text-2xl lg:text-3xl tracking-tight font-bold text-center text-[#f7f7f7]" style={{fontFamily:'helvetica'}}>Entre em Contato</h2>
 
-
-    <form onSubmit={sendEmail} action="" className="space-y-8">
+    <form onSubmit={sendEmail} action="" className="space-y-2">
 
 
         
         <div>
 
-          <label htmlFor="Name" className="block mb-2 text-sm font-medium text-gray-900">Nome: </label>
-          <input type="text" onChange={(e)=>setName(e.target.value)} value={name} id="name" className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b]" placeholder="nome" required/>
+          <label htmlFor="Name" className="block mb-1 text-sm font-medium text-gray-100">Nome: </label>
+          <input type="text" onChange={(e)=>setName(e.target.value)} value={name} id="name" className="block p-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b]" placeholder="nome" required/>
 
         </div>
 
 
         <div>
 
-            <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900">Email: </label>
-            <input type="email" onChange={(e)=>setEmail(e.target.value)} value={email} id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b] rounded-lg block w-full p-2.5" placeholder="email" required/>
+            <label htmlFor="email" className="block mb-1 text-sm font-medium text-gray-100">Email: </label>
+            <input type="email" onChange={(e)=>setEmail(e.target.value)} value={email} id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b] rounded-lg block w-full p-2" placeholder="email" required/>
         </div>
 
 
         <div>
 
-        <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900">Telefone: </label>
-        <input type="phone" onChange={(e)=>setPhone(e.target.value)} value={phone} id="phone" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b] rounded-lg block w-full p-2.5" placeholder=" telefone" required/>
+        <label htmlFor="phone" className="block mb-1 text-sm font-medium text-gray-100">Telefone: </label>
+        <input type="phone" onChange={(e)=>setPhone(e.target.value)} value={phone} id="phone" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b] rounded-lg block w-full p-2" placeholder=" telefone" required/>
 
         </div>
 
@@ -92,12 +99,12 @@ const EmailForm = () => {
           {/* REASON DROPDOWN SELECT */}
 
 
-          <label htmlFor="reason" className="block mb-2 text-sm font-medium text-gray-900">Por que está buscando o registro? </label>
+          <label htmlFor="reason" className="block mb-1 text-sm font-medium text-gray-100">Por que está buscando o registro? </label>
 
           <select name="reason"
           onChange={(e)=>setReason(e.target.value)} 
           id="reason" 
-          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b] rounded-lg block w-full p-2.5" 
+          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b] rounded-lg block w-full p-2" 
           placeholder="Por que está buscando o registro?"
           required>
 
@@ -114,12 +121,12 @@ const EmailForm = () => {
           {/* BRAND TYPE DROPDOWN SELECT */}
 
 
-          <label htmlFor="brandType" className="block mb-2 text-sm font-medium text-gray-900">Qual segmento de atuação da marca?</label>
+          <label htmlFor="brandType" className="block mb-1 text-sm font-medium text-gray-100">Qual segmento de atuação da marca?</label>
 
           <select name="brandType"
           onChange={(e)=>setBrandType(e.target.value)} 
           id="brandType" 
-          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b] rounded-lg block w-full p-2.5" 
+          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm shadow-sm focus:ring-2 focus:outline-none focus:ring-[#78d64b] rounded-lg block w-full p-2" 
           placeholder="Qual segmento de atuação da marca?"
           required>
 
@@ -171,14 +178,18 @@ const EmailForm = () => {
               <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 ">Your message</label>
               <textarea id="message" onChange={(e)=>setMessage(e.target.value)} value={message} rows="6" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-2 focus:outline-none focus:ring-[#78d64b]" placeholder="Leave a comment..."></textarea>
           </div> */}
-          <button type="" className="bg-[#78d64b] text-white py-3 px-5 text-l font-medium text-center rounded-lg sm:w-fit ">ENVIAR</button>
- 
+          <div className="flex justify-center">
+          <button type="" className="bg-[#f7f7f7] hover:text-white border-2 hover:opacity-80 border-white hover:bg-[--green] text-[--green] shadow-sm shadow-zinc-400 py-3 px-6 lg:py-3 lg:px-6 md:py-2 md:px-4 font-medium self-center text-center rounded-lg sm:w-fit ">ENVIAR</button>
+          </div>
 
 
 
     </form>
   </div>
-
+  <Toaster
+  position="top-center"
+  reverseOrder={false}
+/>
   
     </>
   )

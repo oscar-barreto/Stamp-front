@@ -38,7 +38,7 @@ const Navbar = () => {
                 {
                 Links.map((link)=>(
                     <li key={link.name} className='md:ml-8 text-l md:text-sm lg:text-xl md:my-0 my-7 z-2'>
-                    <a  href={link.link} className='scroll-smooth text-gray-50 hover:text-amber-700 duration-500 z-2'>{link.name}</a>
+                    <a href={link.link} onClick={()=>setOpen(!open)} className='scroll-smooth text-gray-50 hover:text-amber-700 duration-500 z-2'>{link.name}</a>
                     </li>
                 ))
                 }

@@ -104,9 +104,9 @@ const HowItWorks = () => {
                     </div>
                 </div>            
             </div>
-            <div className="my-20 " id="Vantagens">
+            <div className="mt-20 mb-10">
             <Link to="https://wa.me/558188175252">
-                        <button className="bg-[--green] border-2 border-[--green] font-semibold hover:bg-white hover:text-[--green]  text-white p-3 rounded text-l">ENTRE EM CONTATO</button>
+                        <button className="bg-[--green] border-2 border-[--green] shadow-sm shadow-gray-400 font-semibold hover:bg-white hover:text-[--green]  text-white p-3 rounded text-l">ENTRE EM CONTATO</button>
                 </Link>
             </div>
         </div>

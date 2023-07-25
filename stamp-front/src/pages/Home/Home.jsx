@@ -5,8 +5,9 @@ import Price from "../../components/Price/Price";
 import Footer from "../../components/Footer/Footer";
 import InterSection2 from "../../components/Intersection/InterSection2";
 import Advantages from "../../components/Advantages/Advantages";
-import WhyUs from "../../components/WhyUs/WhyUs";
 import InterSection3 from "../../components/Intersection/InterSection3";
+import CallServices from "../../components/CallServices/CallServices";
+import VcSabia from "../../components/VcSabia/VcSabia";
 
 const Home = () => {
   return (
@@ -16,14 +17,14 @@ const Home = () => {
          <Header/>
          <InterSection2/>
           <HowItWorks/>
-          {/* <WhyUs/> */}
+          <CallServices/>
           <Advantages/>
           <InterSection3/>
 
           {/* <InterSection1/> */}
 
       
-          <WhyUs/>
+          <VcSabia/>
 
           {/* <InterSection2/> */}
          <Price/>

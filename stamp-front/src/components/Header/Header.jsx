@@ -11,10 +11,10 @@ const Header = () => {
                 <p className="text-xl font-light md:m-5 text-white m-2 p-1" style={{fontFamily:"helvetica"}}>Carimbe o ® no seu legado no mundo dos negócios</p>
                 <div className='md:block lg:flex'>
                 <Link to="https://wa.me/558188175252">
-                        <button className="bg-[#78d64b] w-[200px]  md:w-[250px] text-white m-2 font-bold border-2 p-3 border-white md:m-5 md:p-4 rounded text-l  md:text-xl hover:bg-white hover:text-[#78d64b]" style={{fontFamily:"helvetica"}}>Converse com a gente</button>
+                        <button className="bg-[#78d64b] w-[200px] shadow-sm shadow-gray-400  md:w-[250px] text-white m-2 font-bold border-2 p-3 border-white md:m-5 md:p-4 rounded text-l  md:text-xl hover:bg-white hover:text-[#78d64b]" style={{fontFamily:"helvetica"}}>Converse com a gente</button>
                     </Link>
                     <a href="#Investimento">
-                        <button className="bg-white w-[200px] text-[#78d64b] m-2 md:w-[250px] font-bold md:m-5 p-3 md:p-4 rounded text-l md:text-xl border-2 border-white hover:bg-[#78d64b] hover:text-white" style={{fontFamily:"helvetica"}}>Me mostre os preços</button>
+                        <button className="bg-white w-[200px] shadow-sm shadow-gray-400 text-[#78d64b] m-2 md:w-[250px] font-bold md:m-5 p-3 md:p-4 rounded text-l md:text-xl border-2 border-white hover:bg-[#78d64b] hover:text-white" style={{fontFamily:"helvetica"}}>Me mostre os preços</button>
                     </a>
                 </div>
             </div>
